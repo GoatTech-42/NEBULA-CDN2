@@ -31,7 +31,7 @@ blocklisted; the rename gives jsDelivr a fresh source path:
 
 ## What Is NEBULA CDN?
 
-NEBULA CDN is a collection of **2,818 browser games** — each a single `.html` file that runs entirely in your browser. No downloads, no logins, no ads.
+NEBULA CDN is a collection of **2,943 browser games** — each a single `.html` file that runs entirely in your browser. No downloads, no logins, no ads.
 
 Every game has been:
 
@@ -62,7 +62,7 @@ directly if needed.
 
 | Metric | Value |
 |---|---|
-| Total Games | **2,818** |
+| Total Games | **2,943** |
 | Total Size | ~2.08 GB |
 | Categories | **16** |
 | File Format | Single-file HTML5 |
@@ -269,6 +269,13 @@ Games are served as-is. Each game's original license and copyright belong to its
 ---
 
 *NEBULA CDN — GoatTech Industries*
+
+## Latest additions (v1.3.0, 2026-09-18)
+
+125 zero-dependency single-file HTML5 games from
+github.com/wangzifan396-wzf/mini-browser-games (actively maintained,
+quality-tiered; tier tags included in the catalog). All under the CDN size
+limit as-is.
 
 ## Latest additions (v1.2.0, 2026-09-18)
 

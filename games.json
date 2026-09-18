@@ -2,18 +2,18 @@
   "$schema": "https://raw.githubusercontent.com/GoatTech-42/NEBULACDN/main/schema/games.schema.json",
   "name": "NEBULA CDN",
   "description": "A free, open-source CDN of browser-playable HTML games. Hosted on GitHub and served via jsDelivr.",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "author": "GoatTech Industries",
   "repository": "https://github.com/GoatTech-42/NEBULACDN",
   "cdn_base": "https://cdn.jsdelivr.net/gh/GoatTech-42/NEBULACDN@main",
   "license": "MIT",
-  "generated": "2026-09-18T19:09:50Z",
+  "generated": "2026-09-18T19:21:39Z",
   "stats": {
-    "totalGames": 2818,
-    "totalSizeBytes": 2239560803,
-    "totalSizeMB": 2239.6,
+    "totalGames": 2943,
+    "totalSizeBytes": 2244623406,
+    "totalSizeMB": 2244.6,
     "categories": {
-      "Other": 1796,
+      "Other": 1921,
       "Pokemon": 134,
       "Platformer": 110,
       "Mario": 106,
@@ -51189,6 +51189,2380 @@
       "size": 53662,
       "originalSize": 54245148,
       "hash": "dc9ed21535e9c414"
+    },
+    {
+      "id": "abyss-sonar",
+      "name": "Abyss Sonar",
+      "slug": "abyss-sonar",
+      "file": "games/abyss-sonar.html",
+      "filename": "abyss-sonar.html",
+      "category": "Other",
+      "tags": [
+        "offline",
+        "browser",
+        "html5",
+        "singleplayer",
+        "tier-s"
+      ],
+      "description": "Play Abyss Sonar - a browser game playable directly in your browser. No downloads required.",
+      "size": 42885,
+      "originalSize": 42885,
+      "hash": "254c8de14faef109"
+    },
+    {
+      "id": "air-hockey",
+      "name": "Air Hockey",
+      "slug": "air-hockey",
+      "file": "games/air-hockey.html",
+      "filename": "air-hockey.html",
+      "category": "Other",
+      "tags": [
+        "offline",
+        "browser",
+        "html5",
+        "singleplayer",
+        "tier-a"
+      ],
+      "description": "Play Air Hockey - a browser game playable directly in your browser. No downloads required.",
+      "size": 26511,
+      "originalSize": 26511,
+      "hash": "de2262846128363c"
+    },
+    {
+      "id": "air-traffic-control",
+      "name": "Air Traffic Control",
+      "slug": "air-traffic-control",
+      "file": "games/air-traffic-control.html",
+      "filename": "air-traffic-control.html",
+      "category": "Other",
+      "tags": [
+        "offline",
+        "browser",
+        "html5",
+        "singleplayer",
+        "tier-a"
+      ],
+      "description": "Play Air Traffic Control - a browser game playable directly in your browser. No downloads required.",
+      "size": 25227,
+      "originalSize": 25227,
+      "hash": "81c46d97960cadf9"
+    },
+    {
+      "id": "alchemy-workshop",
+      "name": "Alchemy Workshop",
+      "slug": "alchemy-workshop",
+      "file": "games/alchemy-workshop.html",
+      "filename": "alchemy-workshop.html",
+      "category": "Other",
+      "tags": [
+        "offline",
+        "browser",
+        "html5",
+        "singleplayer",
+        "tier-a"
+      ],
+      "description": "Play Alchemy Workshop - a browser game playable directly in your browser. No downloads required.",
+      "size": 31653,
+      "originalSize": 31653,
+      "hash": "f00b5817b0a83b0b"
+    },
+    {
+      "id": "auction-fever",
+      "name": "Auction Fever",
+      "slug": "auction-fever",
+      "file": "games/auction-fever.html",
+      "filename": "auction-fever.html",
+      "category": "Other",
+      "tags": [
+        "offline",
+        "browser",
+        "html5",
+        "singleplayer",
+        "tier-a"
+      ],
+      "description": "Play Auction Fever - a browser game playable directly in your browser. No downloads required.",
+      "size": 22696,
+      "originalSize": 22696,
+      "hash": "1214e35ae8445043"
+    },
+    {
+      "id": "auto-chess-forge",
+      "name": "Auto Chess Forge",
+      "slug": "auto-chess-forge",
+      "file": "games/auto-chess-forge.html",
+      "filename": "auto-chess-forge.html",
+      "category": "Other",
+      "tags": [
+        "offline",
+        "browser",
+        "html5",
+        "singleplayer",
+        "tier-s"
+      ],
+      "description": "Play Auto Chess Forge - a browser game playable directly in your browser. No downloads required.",
+      "size": 29864,
+      "originalSize": 29864,
+      "hash": "4c2f8497c90b2e88"
+    },
+    {
+      "id": "backpack-arena",
+      "name": "Backpack Arena",
+      "slug": "backpack-arena",
+      "file": "games/backpack-arena.html",
+      "filename": "backpack-arena.html",
+      "category": "Other",
+      "tags": [
+        "offline",
+        "browser",
+        "html5",
+        "singleplayer",
+        "tier-a"
+      ],
+      "description": "Play Backpack Arena - a browser game playable directly in your browser. No downloads required.",
+      "size": 32835,
+      "originalSize": 32835,
+      "hash": "fc935d5397236306"
+    },
+    {
+      "id": "ball-arena",
+      "name": "Ball Arena",
+      "slug": "ball-arena",
+      "file": "games/ball-arena.html",
+      "filename": "ball-arena.html",
+      "category": "Other",
+      "tags": [
+        "offline",
+        "browser",
+        "html5",
+        "singleplayer",
+        "tier-sss"
+      ],
+      "description": "Play Ball Arena - a browser game playable directly in your browser. No downloads required.",
+      "size": 308322,
+      "originalSize": 308322,
+      "hash": "353416cc5742bcb0"
+    },
+    {
+      "id": "basin-control",
+      "name": "Basin Control",
+      "slug": "basin-control",
+      "file": "games/basin-control.html",
+      "filename": "basin-control.html",
+      "category": "Other",
+      "tags": [
+        "offline",
+        "browser",
+        "html5",
+        "singleplayer",
+        "tier-a"
+      ],
+      "description": "Play Basin Control - a browser game playable directly in your browser. No downloads required.",
+      "size": 22221,
+      "originalSize": 22221,
+      "hash": "839ceb1c98c1c2cb"
+    },
+    {
+      "id": "battery-cycle",
+      "name": "Battery Cycle",
+      "slug": "battery-cycle",
+      "file": "games/battery-cycle.html",
+      "filename": "battery-cycle.html",
+      "category": "Other",
+      "tags": [
+        "offline",
+        "browser",
+        "html5",
+        "singleplayer",
+        "tier-a"
+      ],
+      "description": "Play Battery Cycle - a browser game playable directly in your browser. No downloads required.",
+      "size": 22627,
+      "originalSize": 22627,
+      "hash": "b88d41dbf84a5867"
+    },
+    {
+      "id": "beat-bento",
+      "name": "Beat Bento",
+      "slug": "beat-bento",
+      "file": "games/beat-bento.html",
+      "filename": "beat-bento.html",
+      "category": "Other",
+      "tags": [
+        "offline",
+        "browser",
+        "html5",
+        "singleplayer",
+        "tier-s"
+      ],
+      "description": "Play Beat Bento - a browser game playable directly in your browser. No downloads required.",
+      "size": 51865,
+      "originalSize": 51865,
+      "hash": "4d017f887376085b"
+    },
+    {
+      "id": "blackjack-table",
+      "name": "Blackjack Table",
+      "slug": "blackjack-table",
+      "file": "games/blackjack-table.html",
+      "filename": "blackjack-table.html",
+      "category": "Other",
+      "tags": [
+        "offline",
+        "browser",
+        "html5",
+        "singleplayer",
+        "tier-e"
+      ],
+      "description": "Play Blackjack Table - a browser game playable directly in your browser. No downloads required.",
+      "size": 3515,
+      "originalSize": 3515,
+      "hash": "973037ceb90aa125"
+    },
+    {
+      "id": "block-forge",
+      "name": "Block Forge",
+      "slug": "block-forge",
+      "file": "games/block-forge.html",
+      "filename": "block-forge.html",
+      "category": "Other",
+      "tags": [
+        "offline",
+        "browser",
+        "html5",
+        "singleplayer",
+        "tier-a"
+      ],
+      "description": "Play Block Forge - a browser game playable directly in your browser. No downloads required.",
+      "size": 26726,
+      "originalSize": 26726,
+      "hash": "1543f5800b5bb8ce"
+    },
+    {
+      "id": "bomb-grid",
+      "name": "Bomb Grid",
+      "slug": "bomb-grid",
+      "file": "games/bomb-grid.html",
+      "filename": "bomb-grid.html",
+      "category": "Other",
+      "tags": [
+        "offline",
+        "browser",
+        "html5",
+        "singleplayer",
+        "tier-a"
+      ],
+      "description": "Play Bomb Grid - a browser game playable directly in your browser. No downloads required.",
+      "size": 26007,
+      "originalSize": 26007,
+      "hash": "72d4a87a31c122b7"
+    },
+    {
+      "id": "branching-tales",
+      "name": "Branching Tales",
+      "slug": "branching-tales",
+      "file": "games/branching-tales.html",
+      "filename": "branching-tales.html",
+      "category": "Other",
+      "tags": [
+        "offline",
+        "browser",
+        "html5",
+        "singleplayer",
+        "tier-a"
+      ],
+      "description": "Play Branching Tales - a browser game playable directly in your browser. No downloads required.",
+      "size": 47089,
+      "originalSize": 47089,
+      "hash": "943c931e01342005"
+    },
+    {
+      "id": "bytebot-lab",
+      "name": "Bytebot Lab",
+      "slug": "bytebot-lab",
+      "file": "games/bytebot-lab.html",
+      "filename": "bytebot-lab.html",
+      "category": "Other",
+      "tags": [
+        "offline",
+        "browser",
+        "html5",
+        "singleplayer",
+        "tier-a"
+      ],
+      "description": "Play Bytebot Lab - a browser game playable directly in your browser. No downloads required.",
+      "size": 36830,
+      "originalSize": 36830,
+      "hash": "fbe71014f4cd679f"
+    },
+    {
+      "id": "chalk-billiards",
+      "name": "Chalk Billiards",
+      "slug": "chalk-billiards",
+      "file": "games/chalk-billiards.html",
+      "filename": "chalk-billiards.html",
+      "category": "Other",
+      "tags": [
+        "offline",
+        "browser",
+        "html5",
+        "singleplayer",
+        "tier-s"
+      ],
+      "description": "Play Chalk Billiards - a browser game playable directly in your browser. No downloads required.",
+      "size": 35693,
+      "originalSize": 35693,
+      "hash": "8db8022f214e9277"
+    },
+    {
+      "id": "charm-reels",
+      "name": "Charm Reels",
+      "slug": "charm-reels",
+      "file": "games/charm-reels.html",
+      "filename": "charm-reels.html",
+      "category": "Other",
+      "tags": [
+        "offline",
+        "browser",
+        "html5",
+        "singleplayer",
+        "tier-a"
+      ],
+      "description": "Play Charm Reels - a browser game playable directly in your browser. No downloads required.",
+      "size": 33207,
+      "originalSize": 33207,
+      "hash": "11b9dd418ba8735f"
+    },
+    {
+      "id": "checkpoint-inspector",
+      "name": "Checkpoint Inspector",
+      "slug": "checkpoint-inspector",
+      "file": "games/checkpoint-inspector.html",
+      "filename": "checkpoint-inspector.html",
+      "category": "Other",
+      "tags": [
+        "offline",
+        "browser",
+        "html5",
+        "singleplayer",
+        "tier-a"
+      ],
+      "description": "Play Checkpoint Inspector - a browser game playable directly in your browser. No downloads required.",
+      "size": 28979,
+      "originalSize": 28979,
+      "hash": "12d5b819ece5fec7"
+    },
+    {
+      "id": "chromatic-press",
+      "name": "Chromatic Press",
+      "slug": "chromatic-press",
+      "file": "games/chromatic-press.html",
+      "filename": "chromatic-press.html",
+      "category": "Other",
+      "tags": [
+        "offline",
+        "browser",
+        "html5",
+        "singleplayer",
+        "tier-a"
+      ],
+      "description": "Play Chromatic Press - a browser game playable directly in your browser. No downloads required.",
+      "size": 32071,
+      "originalSize": 32071,
+      "hash": "36a7828e233caa23"
+    },
+    {
+      "id": "chromatography-lab",
+      "name": "Chromatography Lab",
+      "slug": "chromatography-lab",
+      "file": "games/chromatography-lab.html",
+      "filename": "chromatography-lab.html",
+      "category": "Other",
+      "tags": [
+        "offline",
+        "browser",
+        "html5",
+        "singleplayer",
+        "tier-a"
+      ],
+      "description": "Play Chromatography Lab - a browser game playable directly in your browser. No downloads required.",
+      "size": 27286,
+      "originalSize": 27286,
+      "hash": "1e0ff0ae9a3d8f2b"
+    },
+    {
+      "id": "cipher-relay",
+      "name": "Cipher Relay",
+      "slug": "cipher-relay",
+      "file": "games/cipher-relay.html",
+      "filename": "cipher-relay.html",
+      "category": "Other",
+      "tags": [
+        "offline",
+        "browser",
+        "html5",
+        "singleplayer",
+        "tier-a"
+      ],
+      "description": "Play Cipher Relay - a browser game playable directly in your browser. No downloads required.",
+      "size": 17854,
+      "originalSize": 17854,
+      "hash": "c1a9f69369db54ae"
+    },
+    {
+      "id": "claw-carnival",
+      "name": "Claw Carnival",
+      "slug": "claw-carnival",
+      "file": "games/claw-carnival.html",
+      "filename": "claw-carnival.html",
+      "category": "Other",
+      "tags": [
+        "offline",
+        "browser",
+        "html5",
+        "singleplayer",
+        "tier-a"
+      ],
+      "description": "Play Claw Carnival - a browser game playable directly in your browser. No downloads required.",
+      "size": 55658,
+      "originalSize": 55658,
+      "hash": "717cbf5697c5b9af"
+    },
+    {
+      "id": "clean-slate",
+      "name": "Clean Slate",
+      "slug": "clean-slate",
+      "file": "games/clean-slate.html",
+      "filename": "clean-slate.html",
+      "category": "Other",
+      "tags": [
+        "offline",
+        "browser",
+        "html5",
+        "singleplayer",
+        "tier-a"
+      ],
+      "description": "Play Clean Slate - a browser game playable directly in your browser. No downloads required.",
+      "size": 23146,
+      "originalSize": 23146,
+      "hash": "962da77b163cfce8"
+    },
+    {
+      "id": "climbing-route",
+      "name": "Climbing Route",
+      "slug": "climbing-route",
+      "file": "games/climbing-route.html",
+      "filename": "climbing-route.html",
+      "category": "Other",
+      "tags": [
+        "offline",
+        "browser",
+        "html5",
+        "singleplayer",
+        "tier-a"
+      ],
+      "description": "Play Climbing Route - a browser game playable directly in your browser. No downloads required.",
+      "size": 22933,
+      "originalSize": 22933,
+      "hash": "0edcd6330081e69b"
+    },
+    {
+      "id": "clockwork-escape",
+      "name": "Clockwork Escape",
+      "slug": "clockwork-escape",
+      "file": "games/clockwork-escape.html",
+      "filename": "clockwork-escape.html",
+      "category": "Other",
+      "tags": [
+        "offline",
+        "browser",
+        "html5",
+        "singleplayer",
+        "tier-a"
+      ],
+      "description": "Play Clockwork Escape - a browser game playable directly in your browser. No downloads required.",
+      "size": 31588,
+      "originalSize": 31588,
+      "hash": "8ff5765615b1a532"
+    },
+    {
+      "id": "comet-weaver",
+      "name": "Comet Weaver",
+      "slug": "comet-weaver",
+      "file": "games/comet-weaver.html",
+      "filename": "comet-weaver.html",
+      "category": "Other",
+      "tags": [
+        "offline",
+        "browser",
+        "html5",
+        "singleplayer",
+        "tier-s"
+      ],
+      "description": "Play Comet Weaver - a browser game playable directly in your browser. No downloads required.",
+      "size": 28382,
+      "originalSize": 28382,
+      "hash": "596c824c22ff80b6"
+    },
+    {
+      "id": "connect-arena",
+      "name": "Connect Arena",
+      "slug": "connect-arena",
+      "file": "games/connect-arena.html",
+      "filename": "connect-arena.html",
+      "category": "Other",
+      "tags": [
+        "offline",
+        "browser",
+        "html5",
+        "singleplayer",
+        "tier-e"
+      ],
+      "description": "Play Connect Arena - a browser game playable directly in your browser. No downloads required.",
+      "size": 2944,
+      "originalSize": 2944,
+      "hash": "df4a5836b94ee99b"
+    },
+    {
+      "id": "courier-grid",
+      "name": "Courier Grid",
+      "slug": "courier-grid",
+      "file": "games/courier-grid.html",
+      "filename": "courier-grid.html",
+      "category": "Other",
+      "tags": [
+        "offline",
+        "browser",
+        "html5",
+        "singleplayer",
+        "tier-a"
+      ],
+      "description": "Play Courier Grid - a browser game playable directly in your browser. No downloads required.",
+      "size": 25138,
+      "originalSize": 25138,
+      "hash": "2a17e606a750b764"
+    },
+    {
+      "id": "courtroom-clash",
+      "name": "Courtroom Clash",
+      "slug": "courtroom-clash",
+      "file": "games/courtroom-clash.html",
+      "filename": "courtroom-clash.html",
+      "category": "Other",
+      "tags": [
+        "offline",
+        "browser",
+        "html5",
+        "singleplayer",
+        "tier-s"
+      ],
+      "description": "Play Courtroom Clash - a browser game playable directly in your browser. No downloads required.",
+      "size": 31953,
+      "originalSize": 31953,
+      "hash": "7c41ccf2816fbf52"
+    },
+    {
+      "id": "cozy-organizer",
+      "name": "Cozy Organizer",
+      "slug": "cozy-organizer",
+      "file": "games/cozy-organizer.html",
+      "filename": "cozy-organizer.html",
+      "category": "Other",
+      "tags": [
+        "offline",
+        "browser",
+        "html5",
+        "singleplayer",
+        "tier-a"
+      ],
+      "description": "Play Cozy Organizer - a browser game playable directly in your browser. No downloads required.",
+      "size": 33987,
+      "originalSize": 33987,
+      "hash": "c64877fd0661a8ec"
+    },
+    {
+      "id": "crossword-cafe",
+      "name": "Crossword Cafe",
+      "slug": "crossword-cafe",
+      "file": "games/crossword-cafe.html",
+      "filename": "crossword-cafe.html",
+      "category": "Other",
+      "tags": [
+        "offline",
+        "browser",
+        "html5",
+        "singleplayer",
+        "tier-a"
+      ],
+      "description": "Play Crossword Cafe - a browser game playable directly in your browser. No downloads required.",
+      "size": 37451,
+      "originalSize": 37451,
+      "hash": "4ef1fab87ea44164"
+    },
+    {
+      "id": "curling-endgame",
+      "name": "Curling Endgame",
+      "slug": "curling-endgame",
+      "file": "games/curling-endgame.html",
+      "filename": "curling-endgame.html",
+      "category": "Other",
+      "tags": [
+        "offline",
+        "browser",
+        "html5",
+        "singleplayer",
+        "tier-a"
+      ],
+      "description": "Play Curling Endgame - a browser game playable directly in your browser. No downloads required.",
+      "size": 21859,
+      "originalSize": 21859,
+      "hash": "22b3c4d3cb82fff0"
+    },
+    {
+      "id": "detective-desk",
+      "name": "Detective Desk",
+      "slug": "detective-desk",
+      "file": "games/detective-desk.html",
+      "filename": "detective-desk.html",
+      "category": "Other",
+      "tags": [
+        "offline",
+        "browser",
+        "html5",
+        "singleplayer",
+        "tier-a"
+      ],
+      "description": "Play Detective Desk - a browser game playable directly in your browser. No downloads required.",
+      "size": 30054,
+      "originalSize": 30054,
+      "hash": "9149aa9ef2fa92b5"
+    },
+    {
+      "id": "dice-delver",
+      "name": "Dice Delver",
+      "slug": "dice-delver",
+      "file": "games/dice-delver.html",
+      "filename": "dice-delver.html",
+      "category": "Other",
+      "tags": [
+        "offline",
+        "browser",
+        "html5",
+        "singleplayer",
+        "tier-s"
+      ],
+      "description": "Play Dice Delver - a browser game playable directly in your browser. No downloads required.",
+      "size": 29065,
+      "originalSize": 29065,
+      "hash": "9e2c7e45981fd20a"
+    },
+    {
+      "id": "dojo-duel",
+      "name": "Dojo Duel",
+      "slug": "dojo-duel",
+      "file": "games/dojo-duel.html",
+      "filename": "dojo-duel.html",
+      "category": "Other",
+      "tags": [
+        "offline",
+        "browser",
+        "html5",
+        "singleplayer",
+        "tier-a"
+      ],
+      "description": "Play Dojo Duel - a browser game playable directly in your browser. No downloads required.",
+      "size": 31698,
+      "originalSize": 31698,
+      "hash": "4b93db3f58435370"
+    },
+    {
+      "id": "drift-racer",
+      "name": "Drift Racer",
+      "slug": "drift-racer",
+      "file": "games/drift-racer.html",
+      "filename": "drift-racer.html",
+      "category": "Other",
+      "tags": [
+        "offline",
+        "browser",
+        "html5",
+        "singleplayer",
+        "tier-s"
+      ],
+      "description": "Play Drift Racer - a browser game playable directly in your browser. No downloads required.",
+      "size": 88309,
+      "originalSize": 88309,
+      "hash": "b3052bfccac777bb"
+    },
+    {
+      "id": "drone-survey",
+      "name": "Drone Survey",
+      "slug": "drone-survey",
+      "file": "games/drone-survey.html",
+      "filename": "drone-survey.html",
+      "category": "Other",
+      "tags": [
+        "offline",
+        "browser",
+        "html5",
+        "singleplayer",
+        "tier-a"
+      ],
+      "description": "Play Drone Survey - a browser game playable directly in your browser. No downloads required.",
+      "size": 23180,
+      "originalSize": 23180,
+      "hash": "80a35be80cb154ee"
+    },
+    {
+      "id": "dungeon-delver",
+      "name": "Dungeon Delver",
+      "slug": "dungeon-delver",
+      "file": "games/dungeon-delver.html",
+      "filename": "dungeon-delver.html",
+      "category": "Other",
+      "tags": [
+        "offline",
+        "browser",
+        "html5",
+        "singleplayer",
+        "tier-s"
+      ],
+      "description": "Play Dungeon Delver - a browser game playable directly in your browser. No downloads required.",
+      "size": 34859,
+      "originalSize": 34859,
+      "hash": "5b8bfec1dae775c6"
+    },
+    {
+      "id": "ecosystem-keeper",
+      "name": "Ecosystem Keeper",
+      "slug": "ecosystem-keeper",
+      "file": "games/ecosystem-keeper.html",
+      "filename": "ecosystem-keeper.html",
+      "category": "Other",
+      "tags": [
+        "offline",
+        "browser",
+        "html5",
+        "singleplayer",
+        "tier-a"
+      ],
+      "description": "Play Ecosystem Keeper - a browser game playable directly in your browser. No downloads required.",
+      "size": 34187,
+      "originalSize": 34187,
+      "hash": "1e62941f9f92950f"
+    },
+    {
+      "id": "elemental-sandbox",
+      "name": "Elemental Sandbox",
+      "slug": "elemental-sandbox",
+      "file": "games/elemental-sandbox.html",
+      "filename": "elemental-sandbox.html",
+      "category": "Other",
+      "tags": [
+        "offline",
+        "browser",
+        "html5",
+        "singleplayer",
+        "tier-a"
+      ],
+      "description": "Play Elemental Sandbox - a browser game playable directly in your browser. No downloads required.",
+      "size": 21960,
+      "originalSize": 21960,
+      "hash": "e334ccefe182c522"
+    },
+    {
+      "id": "ember-tactics",
+      "name": "Ember Tactics",
+      "slug": "ember-tactics",
+      "file": "games/ember-tactics.html",
+      "filename": "ember-tactics.html",
+      "category": "Other",
+      "tags": [
+        "offline",
+        "browser",
+        "html5",
+        "singleplayer",
+        "tier-s"
+      ],
+      "description": "Play Ember Tactics - a browser game playable directly in your browser. No downloads required.",
+      "size": 32573,
+      "originalSize": 32573,
+      "hash": "2a96ef0f1565d98a"
+    },
+    {
+      "id": "fishing-harbor",
+      "name": "Fishing Harbor",
+      "slug": "fishing-harbor",
+      "file": "games/fishing-harbor.html",
+      "filename": "fishing-harbor.html",
+      "category": "Other",
+      "tags": [
+        "offline",
+        "browser",
+        "html5",
+        "singleplayer",
+        "tier-a"
+      ],
+      "description": "Play Fishing Harbor - a browser game playable directly in your browser. No downloads required.",
+      "size": 28100,
+      "originalSize": 28100,
+      "hash": "4dbcab9e7891f17d"
+    },
+    {
+      "id": "flappy-glider",
+      "name": "Flappy Glider",
+      "slug": "flappy-glider",
+      "file": "games/flappy-glider.html",
+      "filename": "flappy-glider.html",
+      "category": "Other",
+      "tags": [
+        "offline",
+        "browser",
+        "html5",
+        "singleplayer",
+        "tier-e"
+      ],
+      "description": "Play Flappy Glider - a browser game playable directly in your browser. No downloads required.",
+      "size": 4505,
+      "originalSize": 4505,
+      "hash": "5cff059ffca162c7"
+    },
+    {
+      "id": "fleet-duel",
+      "name": "Fleet Duel",
+      "slug": "fleet-duel",
+      "file": "games/fleet-duel.html",
+      "filename": "fleet-duel.html",
+      "category": "Other",
+      "tags": [
+        "offline",
+        "browser",
+        "html5",
+        "singleplayer",
+        "tier-a"
+      ],
+      "description": "Play Fleet Duel - a browser game playable directly in your browser. No downloads required.",
+      "size": 24477,
+      "originalSize": 24477,
+      "hash": "f69a954f00fe0612"
+    },
+    {
+      "id": "forest-dash",
+      "name": "Forest Dash",
+      "slug": "forest-dash",
+      "file": "games/forest-dash.html",
+      "filename": "forest-dash.html",
+      "category": "Other",
+      "tags": [
+        "offline",
+        "browser",
+        "html5",
+        "singleplayer",
+        "tier-a"
+      ],
+      "description": "Play Forest Dash - a browser game playable directly in your browser. No downloads required.",
+      "size": 90907,
+      "originalSize": 90907,
+      "hash": "f516ea5694b2f410"
+    },
+    {
+      "id": "frequency-bureau",
+      "name": "Frequency Bureau",
+      "slug": "frequency-bureau",
+      "file": "games/frequency-bureau.html",
+      "filename": "frequency-bureau.html",
+      "category": "Other",
+      "tags": [
+        "offline",
+        "browser",
+        "html5",
+        "singleplayer",
+        "tier-a"
+      ],
+      "description": "Play Frequency Bureau - a browser game playable directly in your browser. No downloads required.",
+      "size": 23210,
+      "originalSize": 23210,
+      "hash": "f5769f60d8805274"
+    },
+    {
+      "id": "frontier-command",
+      "name": "Frontier Command",
+      "slug": "frontier-command",
+      "file": "games/frontier-command.html",
+      "filename": "frontier-command.html",
+      "category": "Other",
+      "tags": [
+        "offline",
+        "browser",
+        "html5",
+        "singleplayer",
+        "tier-a"
+      ],
+      "description": "Play Frontier Command - a browser game playable directly in your browser. No downloads required.",
+      "size": 26348,
+      "originalSize": 26348,
+      "hash": "8ea8da4015287b35"
+    },
+    {
+      "id": "fruit-slice",
+      "name": "Fruit Slice",
+      "slug": "fruit-slice",
+      "file": "games/fruit-slice.html",
+      "filename": "fruit-slice.html",
+      "category": "Other",
+      "tags": [
+        "offline",
+        "browser",
+        "html5",
+        "singleplayer",
+        "tier-a"
+      ],
+      "description": "Play Fruit Slice - a browser game playable directly in your browser. No downloads required.",
+      "size": 28450,
+      "originalSize": 28450,
+      "hash": "435b9973c135b7f4"
+    },
+    {
+      "id": "garden-front",
+      "name": "Garden Front",
+      "slug": "garden-front",
+      "file": "games/garden-front.html",
+      "filename": "garden-front.html",
+      "category": "Other",
+      "tags": [
+        "offline",
+        "browser",
+        "html5",
+        "singleplayer",
+        "tier-ss"
+      ],
+      "description": "Play Garden Front - a browser game playable directly in your browser. No downloads required.",
+      "size": 124381,
+      "originalSize": 124381,
+      "hash": "90bfe8fe28f11cb7"
+    },
+    {
+      "id": "gear-calibrator",
+      "name": "Gear Calibrator",
+      "slug": "gear-calibrator",
+      "file": "games/gear-calibrator.html",
+      "filename": "gear-calibrator.html",
+      "category": "Other",
+      "tags": [
+        "offline",
+        "browser",
+        "html5",
+        "singleplayer",
+        "tier-a"
+      ],
+      "description": "Play Gear Calibrator - a browser game playable directly in your browser. No downloads required.",
+      "size": 40878,
+      "originalSize": 40878,
+      "hash": "44fbe02060e72f22"
+    },
+    {
+      "id": "gem-garden",
+      "name": "Gem Garden",
+      "slug": "gem-garden",
+      "file": "games/gem-garden.html",
+      "filename": "gem-garden.html",
+      "category": "Other",
+      "tags": [
+        "offline",
+        "browser",
+        "html5",
+        "singleplayer",
+        "tier-s"
+      ],
+      "description": "Play Gem Garden - a browser game playable directly in your browser. No downloads required.",
+      "size": 40389,
+      "originalSize": 40389,
+      "hash": "515a819cb64ca6b0"
+    },
+    {
+      "id": "glyph-warden",
+      "name": "Glyph Warden",
+      "slug": "glyph-warden",
+      "file": "games/glyph-warden.html",
+      "filename": "glyph-warden.html",
+      "category": "Other",
+      "tags": [
+        "offline",
+        "browser",
+        "html5",
+        "singleplayer",
+        "tier-a"
+      ],
+      "description": "Play Glyph Warden - a browser game playable directly in your browser. No downloads required.",
+      "size": 40627,
+      "originalSize": 40627,
+      "hash": "3bf469a970fd88b6"
+    },
+    {
+      "id": "hive-sovereign",
+      "name": "Hive Sovereign",
+      "slug": "hive-sovereign",
+      "file": "games/hive-sovereign.html",
+      "filename": "hive-sovereign.html",
+      "category": "Other",
+      "tags": [
+        "offline",
+        "browser",
+        "html5",
+        "singleplayer",
+        "tier-a"
+      ],
+      "description": "Play Hive Sovereign - a browser game playable directly in your browser. No downloads required.",
+      "size": 34359,
+      "originalSize": 34359,
+      "hash": "e471a094c46c5a65"
+    },
+    {
+      "id": "index",
+      "name": "Index",
+      "slug": "index",
+      "file": "games/index.html",
+      "filename": "index.html",
+      "category": "Other",
+      "tags": [
+        "offline",
+        "browser",
+        "html5",
+        "singleplayer"
+      ],
+      "description": "Play Index - a browser game playable directly in your browser. No downloads required.",
+      "size": 13409,
+      "originalSize": 13409,
+      "hash": "f17b5dd256d6b116"
+    },
+    {
+      "id": "island-survival",
+      "name": "Island Survival",
+      "slug": "island-survival",
+      "file": "games/island-survival.html",
+      "filename": "island-survival.html",
+      "category": "Other",
+      "tags": [
+        "offline",
+        "browser",
+        "html5",
+        "singleplayer",
+        "tier-a"
+      ],
+      "description": "Play Island Survival - a browser game playable directly in your browser. No downloads required.",
+      "size": 40465,
+      "originalSize": 40465,
+      "hash": "521517e3f76f879e"
+    },
+    {
+      "id": "lantern-memory",
+      "name": "Lantern Memory",
+      "slug": "lantern-memory",
+      "file": "games/lantern-memory.html",
+      "filename": "lantern-memory.html",
+      "category": "Other",
+      "tags": [
+        "offline",
+        "browser",
+        "html5",
+        "singleplayer",
+        "tier-e"
+      ],
+      "description": "Play Lantern Memory - a browser game playable directly in your browser. No downloads required.",
+      "size": 8653,
+      "originalSize": 8653,
+      "hash": "6a18db45249953f2"
+    },
+    {
+      "id": "lockmaster-shift",
+      "name": "Lockmaster Shift",
+      "slug": "lockmaster-shift",
+      "file": "games/lockmaster-shift.html",
+      "filename": "lockmaster-shift.html",
+      "category": "Other",
+      "tags": [
+        "offline",
+        "browser",
+        "html5",
+        "singleplayer",
+        "tier-a"
+      ],
+      "description": "Play Lockmaster Shift - a browser game playable directly in your browser. No downloads required.",
+      "size": 34815,
+      "originalSize": 34815,
+      "hash": "9d037504dc724581"
+    },
+    {
+      "id": "mahjong-link",
+      "name": "Mahjong Link",
+      "slug": "mahjong-link",
+      "file": "games/mahjong-link.html",
+      "filename": "mahjong-link.html",
+      "category": "Other",
+      "tags": [
+        "offline",
+        "browser",
+        "html5",
+        "singleplayer",
+        "tier-e"
+      ],
+      "description": "Play Mahjong Link - a browser game playable directly in your browser. No downloads required.",
+      "size": 2548,
+      "originalSize": 2548,
+      "hash": "7d6c3417681cffd2"
+    },
+    {
+      "id": "market-pulse",
+      "name": "Market Pulse",
+      "slug": "market-pulse",
+      "file": "games/market-pulse.html",
+      "filename": "market-pulse.html",
+      "category": "Other",
+      "tags": [
+        "offline",
+        "browser",
+        "html5",
+        "singleplayer",
+        "tier-a"
+      ],
+      "description": "Play Market Pulse - a browser game playable directly in your browser. No downloads required.",
+      "size": 29350,
+      "originalSize": 29350,
+      "hash": "c8df0eab96ba90cc"
+    },
+    {
+      "id": "maze-chase",
+      "name": "Maze Chase",
+      "slug": "maze-chase",
+      "file": "games/maze-chase.html",
+      "filename": "maze-chase.html",
+      "category": "Other",
+      "tags": [
+        "offline",
+        "browser",
+        "html5",
+        "singleplayer",
+        "tier-a"
+      ],
+      "description": "Play Maze Chase - a browser game playable directly in your browser. No downloads required.",
+      "size": 31076,
+      "originalSize": 31076,
+      "hash": "7828a97993d2b12e"
+    },
+    {
+      "id": "merge-orbit",
+      "name": "Merge Orbit",
+      "slug": "merge-orbit",
+      "file": "games/merge-orbit.html",
+      "filename": "merge-orbit.html",
+      "category": "Other",
+      "tags": [
+        "offline",
+        "browser",
+        "html5",
+        "singleplayer",
+        "tier-a"
+      ],
+      "description": "Play Merge Orbit - a browser game playable directly in your browser. No downloads required.",
+      "size": 32684,
+      "originalSize": 32684,
+      "hash": "1d9ffc434f36debe"
+    },
+    {
+      "id": "metro-weaver",
+      "name": "Metro Weaver",
+      "slug": "metro-weaver",
+      "file": "games/metro-weaver.html",
+      "filename": "metro-weaver.html",
+      "category": "Other",
+      "tags": [
+        "offline",
+        "browser",
+        "html5",
+        "singleplayer",
+        "tier-a"
+      ],
+      "description": "Play Metro Weaver - a browser game playable directly in your browser. No downloads required.",
+      "size": 24901,
+      "originalSize": 24901,
+      "hash": "4772355d86252e35"
+    },
+    {
+      "id": "midnight-chess",
+      "name": "Midnight Chess",
+      "slug": "midnight-chess",
+      "file": "games/midnight-chess.html",
+      "filename": "midnight-chess.html",
+      "category": "Other",
+      "tags": [
+        "offline",
+        "browser",
+        "html5",
+        "singleplayer",
+        "tier-a"
+      ],
+      "description": "Play Midnight Chess - a browser game playable directly in your browser. No downloads required.",
+      "size": 32081,
+      "originalSize": 32081,
+      "hash": "8a105690ee269605"
+    },
+    {
+      "id": "midnight-monitor",
+      "name": "Midnight Monitor",
+      "slug": "midnight-monitor",
+      "file": "games/midnight-monitor.html",
+      "filename": "midnight-monitor.html",
+      "category": "Other",
+      "tags": [
+        "offline",
+        "browser",
+        "html5",
+        "singleplayer",
+        "tier-a"
+      ],
+      "description": "Play Midnight Monitor - a browser game playable directly in your browser. No downloads required.",
+      "size": 23097,
+      "originalSize": 23097,
+      "hash": "6d321a38523f802e"
+    },
+    {
+      "id": "mine-matrix",
+      "name": "Mine Matrix",
+      "slug": "mine-matrix",
+      "file": "games/mine-matrix.html",
+      "filename": "mine-matrix.html",
+      "category": "Other",
+      "tags": [
+        "offline",
+        "browser",
+        "html5",
+        "singleplayer",
+        "tier-a"
+      ],
+      "description": "Play Mine Matrix - a browser game playable directly in your browser. No downloads required.",
+      "size": 24816,
+      "originalSize": 24816,
+      "hash": "17fedd284b836807"
+    },
+    {
+      "id": "mist-valley-herbarium",
+      "name": "Mist Valley Herbarium",
+      "slug": "mist-valley-herbarium",
+      "file": "games/mist-valley-herbarium.html",
+      "filename": "mist-valley-herbarium.html",
+      "category": "Other",
+      "tags": [
+        "offline",
+        "browser",
+        "html5",
+        "singleplayer",
+        "tier-a"
+      ],
+      "description": "Play Mist Valley Herbarium - a browser game playable directly in your browser. No downloads required.",
+      "size": 26057,
+      "originalSize": 26057,
+      "hash": "71126e6c442acbd6"
+    },
+    {
+      "id": "moba-frontier",
+      "name": "Moba Frontier",
+      "slug": "moba-frontier",
+      "file": "games/moba-frontier.html",
+      "filename": "moba-frontier.html",
+      "category": "Other",
+      "tags": [
+        "offline",
+        "browser",
+        "html5",
+        "singleplayer",
+        "tier-ss"
+      ],
+      "description": "Play Moba Frontier - a browser game playable directly in your browser. No downloads required.",
+      "size": 184234,
+      "originalSize": 184234,
+      "hash": "3448f631228743e3"
+    },
+    {
+      "id": "mole-market",
+      "name": "Mole Market",
+      "slug": "mole-market",
+      "file": "games/mole-market.html",
+      "filename": "mole-market.html",
+      "category": "Other",
+      "tags": [
+        "offline",
+        "browser",
+        "html5",
+        "singleplayer",
+        "tier-e"
+      ],
+      "description": "Play Mole Market - a browser game playable directly in your browser. No downloads required.",
+      "size": 10643,
+      "originalSize": 10643,
+      "hash": "70f11706ad7a962b"
+    },
+    {
+      "id": "monster-horde",
+      "name": "Monster Horde",
+      "slug": "monster-horde",
+      "file": "games/monster-horde.html",
+      "filename": "monster-horde.html",
+      "category": "Other",
+      "tags": [
+        "offline",
+        "browser",
+        "html5",
+        "singleplayer",
+        "tier-a"
+      ],
+      "description": "Play Monster Horde - a browser game playable directly in your browser. No downloads required.",
+      "size": 107664,
+      "originalSize": 107664,
+      "hash": "125b143d3088c22d"
+    },
+    {
+      "id": "monster-tamer",
+      "name": "Monster Tamer",
+      "slug": "monster-tamer",
+      "file": "games/monster-tamer.html",
+      "filename": "monster-tamer.html",
+      "category": "Other",
+      "tags": [
+        "offline",
+        "browser",
+        "html5",
+        "singleplayer",
+        "tier-a"
+      ],
+      "description": "Play Monster Tamer - a browser game playable directly in your browser. No downloads required.",
+      "size": 29599,
+      "originalSize": 29599,
+      "hash": "19127246e69bf0c6"
+    },
+    {
+      "id": "moon-lander",
+      "name": "Moon Lander",
+      "slug": "moon-lander",
+      "file": "games/moon-lander.html",
+      "filename": "moon-lander.html",
+      "category": "Other",
+      "tags": [
+        "offline",
+        "browser",
+        "html5",
+        "singleplayer",
+        "tier-s"
+      ],
+      "description": "Play Moon Lander - a browser game playable directly in your browser. No downloads required.",
+      "size": 27346,
+      "originalSize": 27346,
+      "hash": "f5c59e0db687a3ff"
+    },
+    {
+      "id": "mosaic-jigsaw",
+      "name": "Mosaic Jigsaw",
+      "slug": "mosaic-jigsaw",
+      "file": "games/mosaic-jigsaw.html",
+      "filename": "mosaic-jigsaw.html",
+      "category": "Other",
+      "tags": [
+        "offline",
+        "browser",
+        "html5",
+        "singleplayer",
+        "tier-a"
+      ],
+      "description": "Play Mosaic Jigsaw - a browser game playable directly in your browser. No downloads required.",
+      "size": 32628,
+      "originalSize": 32628,
+      "hash": "79fbbbcb1aae3f88"
+    },
+    {
+      "id": "museum-climate",
+      "name": "Museum Climate",
+      "slug": "museum-climate",
+      "file": "games/museum-climate.html",
+      "filename": "museum-climate.html",
+      "category": "Other",
+      "tags": [
+        "offline",
+        "browser",
+        "html5",
+        "singleplayer",
+        "tier-a"
+      ],
+      "description": "Play Museum Climate - a browser game playable directly in your browser. No downloads required.",
+      "size": 22509,
+      "originalSize": 22509,
+      "hash": "d7265dcc55c74f0d"
+    },
+    {
+      "id": "neon-2048",
+      "name": "Neon 2048",
+      "slug": "neon-2048",
+      "file": "games/neon-2048.html",
+      "filename": "neon-2048.html",
+      "category": "Other",
+      "tags": [
+        "offline",
+        "browser",
+        "html5",
+        "singleplayer",
+        "tier-s"
+      ],
+      "description": "Play Neon 2048 - a browser game playable directly in your browser. No downloads required.",
+      "size": 87328,
+      "originalSize": 87328,
+      "hash": "b5df16cd79f538b9"
+    },
+    {
+      "id": "noodle-shift",
+      "name": "Noodle Shift",
+      "slug": "noodle-shift",
+      "file": "games/noodle-shift.html",
+      "filename": "noodle-shift.html",
+      "category": "Other",
+      "tags": [
+        "offline",
+        "browser",
+        "html5",
+        "singleplayer",
+        "tier-a"
+      ],
+      "description": "Play Noodle Shift - a browser game playable directly in your browser. No downloads required.",
+      "size": 33277,
+      "originalSize": 33277,
+      "hash": "5ce15194071a60d5"
+    },
+    {
+      "id": "observatory-watch",
+      "name": "Observatory Watch",
+      "slug": "observatory-watch",
+      "file": "games/observatory-watch.html",
+      "filename": "observatory-watch.html",
+      "category": "Other",
+      "tags": [
+        "offline",
+        "browser",
+        "html5",
+        "singleplayer",
+        "tier-a"
+      ],
+      "description": "Play Observatory Watch - a browser game playable directly in your browser. No downloads required.",
+      "size": 24042,
+      "originalSize": 24042,
+      "hash": "f193bf17002e2ae8"
+    },
+    {
+      "id": "orbital-pinball",
+      "name": "Orbital Pinball",
+      "slug": "orbital-pinball",
+      "file": "games/orbital-pinball.html",
+      "filename": "orbital-pinball.html",
+      "category": "Other",
+      "tags": [
+        "offline",
+        "browser",
+        "html5",
+        "singleplayer",
+        "tier-s"
+      ],
+      "description": "Play Orbital Pinball - a browser game playable directly in your browser. No downloads required.",
+      "size": 29248,
+      "originalSize": 29248,
+      "hash": "2b903dc3b3e50fe7"
+    },
+    {
+      "id": "orbital-stowage",
+      "name": "Orbital Stowage",
+      "slug": "orbital-stowage",
+      "file": "games/orbital-stowage.html",
+      "filename": "orbital-stowage.html",
+      "category": "Other",
+      "tags": [
+        "offline",
+        "browser",
+        "html5",
+        "singleplayer",
+        "tier-a"
+      ],
+      "description": "Play Orbital Stowage - a browser game playable directly in your browser. No downloads required.",
+      "size": 25245,
+      "originalSize": 25245,
+      "hash": "cb07a55fb9579408"
+    },
+    {
+      "id": "pathogen-protocol",
+      "name": "Pathogen Protocol",
+      "slug": "pathogen-protocol",
+      "file": "games/pathogen-protocol.html",
+      "filename": "pathogen-protocol.html",
+      "category": "Other",
+      "tags": [
+        "offline",
+        "browser",
+        "html5",
+        "singleplayer",
+        "tier-a"
+      ],
+      "description": "Play Pathogen Protocol - a browser game playable directly in your browser. No downloads required.",
+      "size": 27535,
+      "originalSize": 27535,
+      "hash": "1a2fd6e54bcb4ee6"
+    },
+    {
+      "id": "penalty-rush",
+      "name": "Penalty Rush",
+      "slug": "penalty-rush",
+      "file": "games/penalty-rush.html",
+      "filename": "penalty-rush.html",
+      "category": "Other",
+      "tags": [
+        "offline",
+        "browser",
+        "html5",
+        "singleplayer",
+        "tier-e"
+      ],
+      "description": "Play Penalty Rush - a browser game playable directly in your browser. No downloads required.",
+      "size": 3237,
+      "originalSize": 3237,
+      "hash": "ff256ef218f3195e"
+    },
+    {
+      "id": "photo-safari",
+      "name": "Photo Safari",
+      "slug": "photo-safari",
+      "file": "games/photo-safari.html",
+      "filename": "photo-safari.html",
+      "category": "Other",
+      "tags": [
+        "offline",
+        "browser",
+        "html5",
+        "singleplayer",
+        "tier-a"
+      ],
+      "description": "Play Photo Safari - a browser game playable directly in your browser. No downloads required.",
+      "size": 29747,
+      "originalSize": 29747,
+      "hash": "2c57659b1f1db6bd"
+    },
+    {
+      "id": "pixel-clues",
+      "name": "Pixel Clues",
+      "slug": "pixel-clues",
+      "file": "games/pixel-clues.html",
+      "filename": "pixel-clues.html",
+      "category": "Other",
+      "tags": [
+        "offline",
+        "browser",
+        "html5",
+        "singleplayer",
+        "tier-a"
+      ],
+      "description": "Play Pixel Clues - a browser game playable directly in your browser. No downloads required.",
+      "size": 29231,
+      "originalSize": 29231,
+      "hash": "fb5e9e10eaba24e3"
+    },
+    {
+      "id": "pocket-companion",
+      "name": "Pocket Companion",
+      "slug": "pocket-companion",
+      "file": "games/pocket-companion.html",
+      "filename": "pocket-companion.html",
+      "category": "Other",
+      "tags": [
+        "offline",
+        "browser",
+        "html5",
+        "singleplayer",
+        "tier-a"
+      ],
+      "description": "Play Pocket Companion - a browser game playable directly in your browser. No downloads required.",
+      "size": 25372,
+      "originalSize": 25372,
+      "hash": "9065315141fee31b"
+    },
+    {
+      "id": "pocket-empire",
+      "name": "Pocket Empire",
+      "slug": "pocket-empire",
+      "file": "games/pocket-empire.html",
+      "filename": "pocket-empire.html",
+      "category": "Other",
+      "tags": [
+        "offline",
+        "browser",
+        "html5",
+        "singleplayer",
+        "tier-a"
+      ],
+      "description": "Play Pocket Empire - a browser game playable directly in your browser. No downloads required.",
+      "size": 27532,
+      "originalSize": 27532,
+      "hash": "b9f6920bdfe0673f"
+    },
+    {
+      "id": "pocket-farm",
+      "name": "Pocket Farm",
+      "slug": "pocket-farm",
+      "file": "games/pocket-farm.html",
+      "filename": "pocket-farm.html",
+      "category": "Other",
+      "tags": [
+        "offline",
+        "browser",
+        "html5",
+        "singleplayer",
+        "tier-s"
+      ],
+      "description": "Play Pocket Farm - a browser game playable directly in your browser. No downloads required.",
+      "size": 26211,
+      "originalSize": 26211,
+      "hash": "74a4c761ab17fc37"
+    },
+    {
+      "id": "pocket-golf",
+      "name": "Pocket Golf",
+      "slug": "pocket-golf",
+      "file": "games/pocket-golf.html",
+      "filename": "pocket-golf.html",
+      "category": "Other",
+      "tags": [
+        "offline",
+        "browser",
+        "html5",
+        "singleplayer",
+        "tier-a"
+      ],
+      "description": "Play Pocket Golf - a browser game playable directly in your browser. No downloads required.",
+      "size": 25068,
+      "originalSize": 25068,
+      "hash": "7780a388a82d5b46"
+    },
+    {
+      "id": "prism-breaker",
+      "name": "Prism Breaker",
+      "slug": "prism-breaker",
+      "file": "games/prism-breaker.html",
+      "filename": "prism-breaker.html",
+      "category": "Other",
+      "tags": [
+        "offline",
+        "browser",
+        "html5",
+        "singleplayer",
+        "tier-a"
+      ],
+      "description": "Play Prism Breaker - a browser game playable directly in your browser. No downloads required.",
+      "size": 30587,
+      "originalSize": 30587,
+      "hash": "df2f81e98e0f8d2a"
+    },
+    {
+      "id": "prism-orchard",
+      "name": "Prism Orchard",
+      "slug": "prism-orchard",
+      "file": "games/prism-orchard.html",
+      "filename": "prism-orchard.html",
+      "category": "Other",
+      "tags": [
+        "offline",
+        "browser",
+        "html5",
+        "singleplayer",
+        "tier-a"
+      ],
+      "description": "Play Prism Orchard - a browser game playable directly in your browser. No downloads required.",
+      "size": 30413,
+      "originalSize": 30413,
+      "hash": "43226cfa17a487eb"
+    },
+    {
+      "id": "pulse-studio",
+      "name": "Pulse Studio",
+      "slug": "pulse-studio",
+      "file": "games/pulse-studio.html",
+      "filename": "pulse-studio.html",
+      "category": "Other",
+      "tags": [
+        "offline",
+        "browser",
+        "html5",
+        "singleplayer",
+        "tier-a"
+      ],
+      "description": "Play Pulse Studio - a browser game playable directly in your browser. No downloads required.",
+      "size": 26084,
+      "originalSize": 26084,
+      "hash": "eead60c10846efe8"
+    },
+    {
+      "id": "radish-guard",
+      "name": "Radish Guard",
+      "slug": "radish-guard",
+      "file": "games/radish-guard.html",
+      "filename": "radish-guard.html",
+      "category": "Other",
+      "tags": [
+        "offline",
+        "browser",
+        "html5",
+        "singleplayer",
+        "tier-a"
+      ],
+      "description": "Play Radish Guard - a browser game playable directly in your browser. No downloads required.",
+      "size": 86852,
+      "originalSize": 86852,
+      "hash": "19361e19d5437d8d"
+    },
+    {
+      "id": "relay-coordination",
+      "name": "Relay Coordination",
+      "slug": "relay-coordination",
+      "file": "games/relay-coordination.html",
+      "filename": "relay-coordination.html",
+      "category": "Other",
+      "tags": [
+        "offline",
+        "browser",
+        "html5",
+        "singleplayer",
+        "tier-a"
+      ],
+      "description": "Play Relay Coordination - a browser game playable directly in your browser. No downloads required.",
+      "size": 33368,
+      "originalSize": 33368,
+      "hash": "5856c06013dd8921"
+    },
+    {
+      "id": "river-holdem",
+      "name": "River Holdem",
+      "slug": "river-holdem",
+      "file": "games/river-holdem.html",
+      "filename": "river-holdem.html",
+      "category": "Other",
+      "tags": [
+        "offline",
+        "browser",
+        "html5",
+        "singleplayer",
+        "tier-s"
+      ],
+      "description": "Play River Holdem - a browser game playable directly in your browser. No downloads required.",
+      "size": 53987,
+      "originalSize": 53987,
+      "hash": "ead57eb8768fe976"
+    },
+    {
+      "id": "runway-stylist",
+      "name": "Runway Stylist",
+      "slug": "runway-stylist",
+      "file": "games/runway-stylist.html",
+      "filename": "runway-stylist.html",
+      "category": "Other",
+      "tags": [
+        "offline",
+        "browser",
+        "html5",
+        "singleplayer",
+        "tier-a"
+      ],
+      "description": "Play Runway Stylist - a browser game playable directly in your browser. No downloads required.",
+      "size": 40135,
+      "originalSize": 40135,
+      "hash": "c3445d6041bd3e86"
+    },
+    {
+      "id": "shadow-post",
+      "name": "Shadow Post",
+      "slug": "shadow-post",
+      "file": "games/shadow-post.html",
+      "filename": "shadow-post.html",
+      "category": "Other",
+      "tags": [
+        "offline",
+        "browser",
+        "html5",
+        "singleplayer",
+        "tier-s"
+      ],
+      "description": "Play Shadow Post - a browser game playable directly in your browser. No downloads required.",
+      "size": 52271,
+      "originalSize": 52271,
+      "hash": "0aaae2866888bb7d"
+    },
+    {
+      "id": "shan-hai",
+      "name": "Shan Hai",
+      "slug": "shan-hai",
+      "file": "games/shan-hai.html",
+      "filename": "shan-hai.html",
+      "category": "Other",
+      "tags": [
+        "offline",
+        "browser",
+        "html5",
+        "singleplayer",
+        "tier-sss"
+      ],
+      "description": "Play Shan Hai - a browser game playable directly in your browser. No downloads required.",
+      "size": 125858,
+      "originalSize": 125858,
+      "hash": "9dbb2d6741197476"
+    },
+    {
+      "id": "signal-caravan",
+      "name": "Signal Caravan",
+      "slug": "signal-caravan",
+      "file": "games/signal-caravan.html",
+      "filename": "signal-caravan.html",
+      "category": "Other",
+      "tags": [
+        "offline",
+        "browser",
+        "html5",
+        "singleplayer",
+        "tier-a"
+      ],
+      "description": "Play Signal Caravan - a browser game playable directly in your browser. No downloads required.",
+      "size": 28708,
+      "originalSize": 28708,
+      "hash": "4cf6b508e8191306"
+    },
+    {
+      "id": "silent-rescue",
+      "name": "Silent Rescue",
+      "slug": "silent-rescue",
+      "file": "games/silent-rescue.html",
+      "filename": "silent-rescue.html",
+      "category": "Other",
+      "tags": [
+        "offline",
+        "browser",
+        "html5",
+        "singleplayer",
+        "tier-a"
+      ],
+      "description": "Play Silent Rescue - a browser game playable directly in your browser. No downloads required.",
+      "size": 22992,
+      "originalSize": 22992,
+      "hash": "5ed41cb3313c2ff3"
+    },
+    {
+      "id": "sky-hop",
+      "name": "Sky Hop",
+      "slug": "sky-hop",
+      "file": "games/sky-hop.html",
+      "filename": "sky-hop.html",
+      "category": "Other",
+      "tags": [
+        "offline",
+        "browser",
+        "html5",
+        "singleplayer",
+        "tier-a"
+      ],
+      "description": "Play Sky Hop - a browser game playable directly in your browser. No downloads required.",
+      "size": 29723,
+      "originalSize": 29723,
+      "hash": "c171dbf1d13bde26"
+    },
+    {
+      "id": "skyline-planner",
+      "name": "Skyline Planner",
+      "slug": "skyline-planner",
+      "file": "games/skyline-planner.html",
+      "filename": "skyline-planner.html",
+      "category": "Other",
+      "tags": [
+        "offline",
+        "browser",
+        "html5",
+        "singleplayer",
+        "tier-a"
+      ],
+      "description": "Play Skyline Planner - a browser game playable directly in your browser. No downloads required.",
+      "size": 26842,
+      "originalSize": 26842,
+      "hash": "409eb346641ef2c9"
+    },
+    {
+      "id": "slingstorm",
+      "name": "Slingstorm",
+      "slug": "slingstorm",
+      "file": "games/slingstorm.html",
+      "filename": "slingstorm.html",
+      "category": "Other",
+      "tags": [
+        "offline",
+        "browser",
+        "html5",
+        "singleplayer",
+        "tier-ss"
+      ],
+      "description": "Play Slingstorm - a browser game playable directly in your browser. No downloads required.",
+      "size": 170711,
+      "originalSize": 170711,
+      "hash": "9b94ab890a55c1a2"
+    },
+    {
+      "id": "snake-game",
+      "name": "Snake Game",
+      "slug": "snake-game",
+      "file": "games/snake-game.html",
+      "filename": "snake-game.html",
+      "category": "Other",
+      "tags": [
+        "offline",
+        "browser",
+        "html5",
+        "singleplayer",
+        "tier-ss"
+      ],
+      "description": "Play Snake Game - a browser game playable directly in your browser. No downloads required.",
+      "size": 97859,
+      "originalSize": 97859,
+      "hash": "8cbacca31fc07b17"
+    },
+    {
+      "id": "snow-ridge",
+      "name": "Snow Ridge",
+      "slug": "snow-ridge",
+      "file": "games/snow-ridge.html",
+      "filename": "snow-ridge.html",
+      "category": "Other",
+      "tags": [
+        "offline",
+        "browser",
+        "html5",
+        "singleplayer",
+        "tier-a"
+      ],
+      "description": "Play Snow Ridge - a browser game playable directly in your browser. No downloads required.",
+      "size": 94018,
+      "originalSize": 94018,
+      "hash": "e747ebda71317126"
+    },
+    {
+      "id": "sokoban-quest",
+      "name": "Sokoban Quest",
+      "slug": "sokoban-quest",
+      "file": "games/sokoban-quest.html",
+      "filename": "sokoban-quest.html",
+      "category": "Other",
+      "tags": [
+        "offline",
+        "browser",
+        "html5",
+        "singleplayer",
+        "tier-a"
+      ],
+      "description": "Play Sokoban Quest - a browser game playable directly in your browser. No downloads required.",
+      "size": 42748,
+      "originalSize": 42748,
+      "hash": "9ca9ee340f272d25"
+    },
+    {
+      "id": "solitaire-classic",
+      "name": "Solitaire Classic",
+      "slug": "solitaire-classic",
+      "file": "games/solitaire-classic.html",
+      "filename": "solitaire-classic.html",
+      "category": "Other",
+      "tags": [
+        "offline",
+        "browser",
+        "html5",
+        "singleplayer",
+        "tier-a"
+      ],
+      "description": "Play Solitaire Classic - a browser game playable directly in your browser. No downloads required.",
+      "size": 32051,
+      "originalSize": 32051,
+      "hash": "a12f04f4852ba1f8"
+    },
+    {
+      "id": "spectrum-console",
+      "name": "Spectrum Console",
+      "slug": "spectrum-console",
+      "file": "games/spectrum-console.html",
+      "filename": "spectrum-console.html",
+      "category": "Other",
+      "tags": [
+        "offline",
+        "browser",
+        "html5",
+        "singleplayer",
+        "tier-a"
+      ],
+      "description": "Play Spectrum Console - a browser game playable directly in your browser. No downloads required.",
+      "size": 29038,
+      "originalSize": 29038,
+      "hash": "35cef6b15e509f28"
+    },
+    {
+      "id": "spud-arena",
+      "name": "Spud Arena",
+      "slug": "spud-arena",
+      "file": "games/spud-arena.html",
+      "filename": "spud-arena.html",
+      "category": "Other",
+      "tags": [
+        "offline",
+        "browser",
+        "html5",
+        "singleplayer",
+        "tier-ss"
+      ],
+      "description": "Play Spud Arena - a browser game playable directly in your browser. No downloads required.",
+      "size": 109411,
+      "originalSize": 109411,
+      "hash": "b3663004ad2b5724"
+    },
+    {
+      "id": "stack-tower",
+      "name": "Stack Tower",
+      "slug": "stack-tower",
+      "file": "games/stack-tower.html",
+      "filename": "stack-tower.html",
+      "category": "Other",
+      "tags": [
+        "offline",
+        "browser",
+        "html5",
+        "singleplayer",
+        "tier-e"
+      ],
+      "description": "Play Stack Tower - a browser game playable directly in your browser. No downloads required.",
+      "size": 4174,
+      "originalSize": 4174,
+      "hash": "64aa65b8d257b482"
+    },
+    {
+      "id": "starforge-idle",
+      "name": "Starforge Idle",
+      "slug": "starforge-idle",
+      "file": "games/starforge-idle.html",
+      "filename": "starforge-idle.html",
+      "category": "Other",
+      "tags": [
+        "offline",
+        "browser",
+        "html5",
+        "singleplayer",
+        "tier-sss"
+      ],
+      "description": "Play Starforge Idle - a browser game playable directly in your browser. No downloads required.",
+      "size": 122694,
+      "originalSize": 122694,
+      "hash": "d5f903d8d817532d"
+    },
+    {
+      "id": "starline-route",
+      "name": "Starline Route",
+      "slug": "starline-route",
+      "file": "games/starline-route.html",
+      "filename": "starline-route.html",
+      "category": "Other",
+      "tags": [
+        "offline",
+        "browser",
+        "html5",
+        "singleplayer",
+        "tier-a"
+      ],
+      "description": "Play Starline Route - a browser game playable directly in your browser. No downloads required.",
+      "size": 22760,
+      "originalSize": 22760,
+      "hash": "6bb5b6f4fd3ed008"
+    },
+    {
+      "id": "starship-suspects",
+      "name": "Starship Suspects",
+      "slug": "starship-suspects",
+      "file": "games/starship-suspects.html",
+      "filename": "starship-suspects.html",
+      "category": "Other",
+      "tags": [
+        "offline",
+        "browser",
+        "html5",
+        "singleplayer",
+        "tier-a"
+      ],
+      "description": "Play Starship Suspects - a browser game playable directly in your browser. No downloads required.",
+      "size": 23552,
+      "originalSize": 23552,
+      "hash": "8900ba98fcac3b39"
+    },
+    {
+      "id": "stratigraphy-lab",
+      "name": "Stratigraphy Lab",
+      "slug": "stratigraphy-lab",
+      "file": "games/stratigraphy-lab.html",
+      "filename": "stratigraphy-lab.html",
+      "category": "Other",
+      "tags": [
+        "offline",
+        "browser",
+        "html5",
+        "singleplayer",
+        "tier-a"
+      ],
+      "description": "Play Stratigraphy Lab - a browser game playable directly in your browser. No downloads required.",
+      "size": 20866,
+      "originalSize": 20866,
+      "hash": "0a15a52b2de1f878"
+    },
+    {
+      "id": "sudoku-studio",
+      "name": "Sudoku Studio",
+      "slug": "sudoku-studio",
+      "file": "games/sudoku-studio.html",
+      "filename": "sudoku-studio.html",
+      "category": "Other",
+      "tags": [
+        "offline",
+        "browser",
+        "html5",
+        "singleplayer",
+        "tier-a"
+      ],
+      "description": "Play Sudoku Studio - a browser game playable directly in your browser. No downloads required.",
+      "size": 25315,
+      "originalSize": 25315,
+      "hash": "7010d3988e29af91"
+    },
+    {
+      "id": "switchyard-rush",
+      "name": "Switchyard Rush",
+      "slug": "switchyard-rush",
+      "file": "games/switchyard-rush.html",
+      "filename": "switchyard-rush.html",
+      "category": "Other",
+      "tags": [
+        "offline",
+        "browser",
+        "html5",
+        "singleplayer",
+        "tier-a"
+      ],
+      "description": "Play Switchyard Rush - a browser game playable directly in your browser. No downloads required.",
+      "size": 30064,
+      "originalSize": 30064,
+      "hash": "dd92890c6862f49b"
+    },
+    {
+      "id": "tank-arena",
+      "name": "Tank Arena",
+      "slug": "tank-arena",
+      "file": "games/tank-arena.html",
+      "filename": "tank-arena.html",
+      "category": "Other",
+      "tags": [
+        "offline",
+        "browser",
+        "html5",
+        "singleplayer",
+        "tier-ss"
+      ],
+      "description": "Play Tank Arena - a browser game playable directly in your browser. No downloads required.",
+      "size": 134633,
+      "originalSize": 134633,
+      "hash": "ac28f9a74639e90b"
+    },
+    {
+      "id": "thunder-vanguard",
+      "name": "Thunder Vanguard",
+      "slug": "thunder-vanguard",
+      "file": "games/thunder-vanguard.html",
+      "filename": "thunder-vanguard.html",
+      "category": "Other",
+      "tags": [
+        "offline",
+        "browser",
+        "html5",
+        "singleplayer",
+        "tier-s"
+      ],
+      "description": "Play Thunder Vanguard - a browser game playable directly in your browser. No downloads required.",
+      "size": 42255,
+      "originalSize": 42255,
+      "hash": "830e6bc32b14390f"
+    },
+    {
+      "id": "tidal-grid",
+      "name": "Tidal Grid",
+      "slug": "tidal-grid",
+      "file": "games/tidal-grid.html",
+      "filename": "tidal-grid.html",
+      "category": "Other",
+      "tags": [
+        "offline",
+        "browser",
+        "html5",
+        "singleplayer",
+        "tier-a"
+      ],
+      "description": "Play Tidal Grid - a browser game playable directly in your browser. No downloads required.",
+      "size": 25052,
+      "originalSize": 25052,
+      "hash": "ea4c159cc219ea68"
+    },
+    {
+      "id": "tide-salvage",
+      "name": "Tide Salvage",
+      "slug": "tide-salvage",
+      "file": "games/tide-salvage.html",
+      "filename": "tide-salvage.html",
+      "category": "Other",
+      "tags": [
+        "offline",
+        "browser",
+        "html5",
+        "singleplayer",
+        "tier-a"
+      ],
+      "description": "Play Tide Salvage - a browser game playable directly in your browser. No downloads required.",
+      "size": 30863,
+      "originalSize": 30863,
+      "hash": "779811b2ea2e07bb"
+    },
+    {
+      "id": "time-post",
+      "name": "Time Post",
+      "slug": "time-post",
+      "file": "games/time-post.html",
+      "filename": "time-post.html",
+      "category": "Other",
+      "tags": [
+        "offline",
+        "browser",
+        "html5",
+        "singleplayer",
+        "tier-a"
+      ],
+      "description": "Play Time Post - a browser game playable directly in your browser. No downloads required.",
+      "size": 26991,
+      "originalSize": 26991,
+      "hash": "092522a31b58cb84"
+    },
+    {
+      "id": "tiny-factory",
+      "name": "Tiny Factory",
+      "slug": "tiny-factory",
+      "file": "games/tiny-factory.html",
+      "filename": "tiny-factory.html",
+      "category": "Other",
+      "tags": [
+        "offline",
+        "browser",
+        "html5",
+        "singleplayer",
+        "tier-a"
+      ],
+      "description": "Play Tiny Factory - a browser game playable directly in your browser. No downloads required.",
+      "size": 36662,
+      "originalSize": 36662,
+      "hash": "18638e24216b6b87"
+    },
+    {
+      "id": "touchline-manager",
+      "name": "Touchline Manager",
+      "slug": "touchline-manager",
+      "file": "games/touchline-manager.html",
+      "filename": "touchline-manager.html",
+      "category": "Other",
+      "tags": [
+        "offline",
+        "browser",
+        "html5",
+        "singleplayer",
+        "tier-a"
+      ],
+      "description": "Play Touchline Manager - a browser game playable directly in your browser. No downloads required.",
+      "size": 43398,
+      "originalSize": 43398,
+      "hash": "464c0995de8b10ff"
+    },
+    {
+      "id": "truss-workshop",
+      "name": "Truss Workshop",
+      "slug": "truss-workshop",
+      "file": "games/truss-workshop.html",
+      "filename": "truss-workshop.html",
+      "category": "Other",
+      "tags": [
+        "offline",
+        "browser",
+        "html5",
+        "singleplayer",
+        "tier-a"
+      ],
+      "description": "Play Truss Workshop - a browser game playable directly in your browser. No downloads required.",
+      "size": 46957,
+      "originalSize": 46957,
+      "hash": "f5de7f5c1f3bcc87"
+    },
+    {
+      "id": "wind-tunnel-contracts",
+      "name": "Wind Tunnel Contracts",
+      "slug": "wind-tunnel-contracts",
+      "file": "games/wind-tunnel-contracts.html",
+      "filename": "wind-tunnel-contracts.html",
+      "category": "Other",
+      "tags": [
+        "offline",
+        "browser",
+        "html5",
+        "singleplayer",
+        "tier-a"
+      ],
+      "description": "Play Wind Tunnel Contracts - a browser game playable directly in your browser. No downloads required.",
+      "size": 21921,
+      "originalSize": 21921,
+      "hash": "a8c0bdb56d106ee8"
+    },
+    {
+      "id": "wonder-park",
+      "name": "Wonder Park",
+      "slug": "wonder-park",
+      "file": "games/wonder-park.html",
+      "filename": "wonder-park.html",
+      "category": "Other",
+      "tags": [
+        "offline",
+        "browser",
+        "html5",
+        "singleplayer",
+        "tier-a"
+      ],
+      "description": "Play Wonder Park - a browser game playable directly in your browser. No downloads required.",
+      "size": 26884,
+      "originalSize": 26884,
+      "hash": "8bbb39534cc8ed46"
+    },
+    {
+      "id": "word-grid",
+      "name": "Word Grid",
+      "slug": "word-grid",
+      "file": "games/word-grid.html",
+      "filename": "word-grid.html",
+      "category": "Other",
+      "tags": [
+        "offline",
+        "browser",
+        "html5",
+        "singleplayer",
+        "tier-e"
+      ],
+      "description": "Play Word Grid - a browser game playable directly in your browser. No downloads required.",
+      "size": 2740,
+      "originalSize": 2740,
+      "hash": "46f29eaaa566ab4c"
     }
   ]
 }
