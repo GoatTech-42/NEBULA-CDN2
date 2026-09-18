@@ -20,7 +20,7 @@
 ## Source rename (2026-09-18)
 
 This repository was renamed `NEBULA-CDN` -> `NEBULACDN`. The old jsDelivr
-source URL (`cdn.jsdelivr.net/gh/GoatTech-42/NEBULA-CDN@main`) got
+source URL (`cdn.jsdelivr.net/gh/GoatTech-42/NEBULACDN@main`) got
 blocklisted; the rename gives jsDelivr a fresh source path:
 
 - New CDN base: `https://cdn.jsdelivr.net/gh/GoatTech-42/NEBULACDN@main/`

@@ -232,7 +232,7 @@ def main():
                 f"<!-- NEBULA CDN | GoatTech Industries | "
                 f"Game: {display_name} | "
                 f"File: {new_filename} | "
-                f"https://github.com/GoatTech-42/NEBULA-CDN -->\n"
+                f"https://github.com/GoatTech-42/NEBULACDN -->\n"
             )
             final_content = header + minified
             del minified
@@ -299,12 +299,12 @@ def main():
     total_size = sum(g["size"] for g in catalog)
     
     catalog_data = {
-        "$schema": "https://raw.githubusercontent.com/GoatTech-42/NEBULA-CDN/main/schema/games.schema.json",
+        "$schema": "https://raw.githubusercontent.com/GoatTech-42/NEBULACDN/main/schema/games.schema.json",
         "name": "NEBULA CDN",
         "description": "A free, open-source CDN of browser-playable HTML games. Hosted on GitHub and served via jsDelivr.",
         "version": "1.0.0",
         "author": "GoatTech Industries",
-        "repository": "https://github.com/GoatTech-42/NEBULA-CDN",
+        "repository": "https://github.com/GoatTech-42/NEBULACDN",
         "cdn_base": "https://cdn.jsdelivr.net/gh/GoatTech-42/NEBULACDN@main",
         "license": "MIT",
         "generated": datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ"),
