@@ -269,3 +269,16 @@ Games are served as-is. Each game's original license and copyright belong to its
 ---
 
 *NEBULA CDN — GoatTech Industries*
+
+## Large game splitting
+
+jsDelivr refuses to serve files over ~20MB, so the 43 games whose original
+single-file HTML exceeded that are split at build time by
+`scripts/split_large_games.py`. The HTML stays the entry point; embedded
+assets move to `games/assets/` and load at runtime. Five patterns are
+handled: `data:application/octet-stream` (and Shockwave Flash) blobs fetched
+by the page, `compressedString` JS literals, `decodeChunk` base85 script
+tags, `<script id="payload">` pack loaders, `<option value>` launcher packs,
+and oversized inline code scripts. Blobs over 19MB are chunked with a fetch
+interceptor that reassembles them transparently. Run the script after adding
+a new oversized game; it only rewrites files over the limit.
