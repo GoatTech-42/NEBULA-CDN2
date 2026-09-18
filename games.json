@@ -22316,9 +22316,9 @@
         "singleplayer"
       ],
       "description": "Play Jellytruckgood \u2014 a racing game playable directly in your browser. No downloads required.",
-      "size": 11112,
+      "size": 8179,
       "originalSize": 8965,
-      "hash": "5e47f0d717d3d1d6"
+      "hash": "c6f8075a65c918bf"
     },
     {
       "id": "jetforcegemini",
@@ -25755,9 +25755,9 @@
         "cdn-streamed"
       ],
       "description": "Play Mariovsluigi in your browser (streams game files via jsDelivr CDN).",
-      "size": 3214,
+      "size": 1813,
       "originalSize": 2034,
-      "hash": "0a597e837d6745b8"
+      "hash": "25ce7dc88818e57d"
     },
     {
       "id": "marvel-super-heroes-arcade",
@@ -26651,9 +26651,9 @@
         "singleplayer"
       ],
       "description": "Play Melonplayground \u2014 a other game playable directly in your browser. No downloads required.",
-      "size": 15345,
+      "size": 14593,
       "originalSize": 15067,
-      "hash": "de8f01da7c9196be"
+      "hash": "46244dc712d00ff3"
     },
     {
       "id": "meowuwu",
@@ -31227,9 +31227,9 @@
         "singleplayer"
       ],
       "description": "Play Paperio \u2014 a other game playable directly in your browser. No downloads required.",
-      "size": 4076,
+      "size": 7235,
       "originalSize": 8171,
-      "hash": "8b9ed21287100e9d"
+      "hash": "363a19dcac68c18f"
     },
     {
       "id": "paperio3d",
@@ -43654,9 +43654,9 @@
         "singleplayer"
       ],
       "description": "Play Stickmanduel \u2014 a fighting game playable directly in your browser. No downloads required.",
-      "size": 42728,
+      "size": 41733,
       "originalSize": 42374,
-      "hash": "91152351f58d3aa3"
+      "hash": "03cd6ef2948a5998"
     },
     {
       "id": "stickmangtacity",
@@ -49472,9 +49472,9 @@
         "singleplayer"
       ],
       "description": "Play Underneath \u2014 a other game playable directly in your browser. No downloads required.",
-      "size": 59109,
+      "size": 1963,
       "originalSize": 2900,
-      "hash": "e7b6faf7cd3f0a75"
+      "hash": "1fae1fd164419313"
     },
     {
       "id": "undertalelb",
@@ -55324,9 +55324,9 @@
         "cdn-streamed"
       ],
       "description": "Play Another Steal a Brainrot in your browser (streams game files via jsDelivr CDN).",
-      "size": 12734,
+      "size": 12179,
       "originalSize": 12518,
-      "hash": "8a16468cd346fa07"
+      "hash": "b4198fd04809a413"
     },
     {
       "id": "baldi-s-basics-remastered",
@@ -56258,9 +56258,9 @@
         "cdn-streamed"
       ],
       "description": "Play Granny Online in your browser (streams game files via jsDelivr CDN).",
-      "size": 105723,
+      "size": 105330,
       "originalSize": 105540,
-      "hash": "73a13b8ac24b0ded"
+      "hash": "ba9a984c44d775d1"
     },
     {
       "id": "granny",
@@ -56578,9 +56578,9 @@
         "cdn-streamed"
       ],
       "description": "Play Mario VS Luigi Online in your browser (streams game files via jsDelivr CDN).",
-      "size": 3232,
+      "size": 2034,
       "originalSize": 2034,
-      "hash": "91484bec2eb0b336"
+      "hash": "4a2ff4c965f6a99b"
     },
     {
       "id": "minecraft-parkour",
