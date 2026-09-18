@@ -31,7 +31,7 @@ blocklisted; the rename gives jsDelivr a fresh source path:
 
 ## What Is NEBULA CDN?
 
-NEBULA CDN is a collection of **2,790 self-contained HTML games** — each a single `.html` file that runs entirely in your browser. No downloads, no logins, no ads.
+NEBULA CDN is a collection of **2,810 self-contained HTML games** — each a single `.html` file that runs entirely in your browser. No downloads, no logins, no ads.
 
 Every game has been:
 
@@ -42,12 +42,28 @@ Every game has been:
 
 ---
 
+## Fresh additions (2026-09-18)
+
+21 games added from current public single-file packs (source:
+[CoolDude2349/Offline-HTML-Games-Pack](https://github.com/CoolDude2349/Offline-HTML-Games-Pack),
+deduped against the existing catalog): Geometry Dash, Super Mario 63,
+Super Mario 64, six more Minecraft browser versions (1.12 / 1.5 / 1.8 /
+Alpha 1.2.6 / Beta 1.3 / Indev), Papa's Burgeria/Donuteria/Pizzeria,
+Candy Crush, Minesweeper, Stack, Wordle Unlimited, Sand Game,
+3D Flight Simulator, Crazy Crash Landing, Super Bike The Champion and
+Super Star Car.
+
+Note: jsDelivr refuses to serve individual files over ~20 MB. Games above
+that line (incl. some of these additions and ~36 older entries) still ship
+in the repo but may 403 through the CDN link; pull them from the repo
+directly if needed.
+
 ## Stats
 
 | Metric | Value |
 |---|---|
-| Total Games | **2,790** |
-| Total Size | ~1.63 GB |
+| Total Games | **2,810** |
+| Total Size | ~2.08 GB |
 | Categories | **16** |
 | File Format | Single-file HTML5 |
 | CDN Provider | jsDelivr (GitHub-backed) |
