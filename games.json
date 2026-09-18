@@ -2,16 +2,16 @@
   "$schema": "https://raw.githubusercontent.com/GoatTech-42/NEBULACDN/main/schema/games.schema.json",
   "name": "NEBULA CDN",
   "description": "A free, open-source CDN of browser-playable HTML games. Hosted on GitHub and served via jsDelivr.",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "author": "GoatTech Industries",
   "repository": "https://github.com/GoatTech-42/NEBULACDN",
   "cdn_base": "https://cdn.jsdelivr.net/gh/GoatTech-42/NEBULACDN@main",
   "license": "MIT",
-  "generated": "2026-09-18T18:04:13Z",
+  "generated": "2026-09-18T19:09:50Z",
   "stats": {
-    "totalGames": 2810,
-    "totalSizeBytes": 2079290480,
-    "totalSizeMB": 2079.3,
+    "totalGames": 2818,
+    "totalSizeBytes": 2239560803,
+    "totalSizeMB": 2239.6,
     "categories": {
       "Other": 1796,
       "Pokemon": 134,
@@ -25,7 +25,7 @@
       "Shooter": 52,
       "Horror": 51,
       "Puzzle": 50,
-      "Minecraft": 47,
+      "Minecraft": 55,
       "Zelda": 37,
       "Simulation": 34,
       "RPG": 33
@@ -51037,6 +51037,158 @@
       "size": 1140663,
       "originalSize": 1140663,
       "hash": "6ebe44cf60d6d69d"
+    },
+    {
+      "id": "eaglercraft-26-2",
+      "name": "Eaglercraft 26.2",
+      "slug": "eaglercraft-26-2",
+      "file": "games/eaglercraft-26-2.html",
+      "filename": "eaglercraft-26-2.html",
+      "category": "Minecraft",
+      "tags": [
+        "offline",
+        "browser",
+        "html5",
+        "singleplayer",
+        "eaglercraft"
+      ],
+      "description": "Minecraft 26.2 in the browser - the newest Eaglercraft port (EaglercraftNOA).",
+      "size": 12258185,
+      "originalSize": 75399837,
+      "hash": "7eabc1d940b14a64"
+    },
+    {
+      "id": "eaglercraft-26-1-2-novix",
+      "name": "Eaglercraft 26.1.2 (Novix WASM)",
+      "slug": "eaglercraft-26-1-2-novix",
+      "file": "games/eaglercraft-26-1-2-novix.html",
+      "filename": "eaglercraft-26-1-2-novix.html",
+      "category": "Minecraft",
+      "tags": [
+        "offline",
+        "browser",
+        "html5",
+        "singleplayer",
+        "eaglercraft"
+      ],
+      "description": "Minecraft 26.1.2 Novix WASM build in the browser (EaglercraftNOA).",
+      "size": 1491141,
+      "originalSize": 65694777,
+      "hash": "4293167ae1bbdc92"
+    },
+    {
+      "id": "eaglercraft-1-21-11",
+      "name": "Minecraft 1.21.11 (Eaglercraft WASM)",
+      "slug": "eaglercraft-1-21-11",
+      "file": "games/eaglercraft-1-21-11.html",
+      "filename": "eaglercraft-1-21-11.html",
+      "category": "Minecraft",
+      "tags": [
+        "offline",
+        "browser",
+        "html5",
+        "singleplayer",
+        "eaglercraft"
+      ],
+      "description": "Minecraft 1.21.11 in the browser via Eaglercraft WASM (EaglercraftNOA).",
+      "size": 13947,
+      "originalSize": 48776304,
+      "hash": "d69669be2f47315e"
+    },
+    {
+      "id": "eaglercraft-1-20-6",
+      "name": "Minecraft 1.20.6 (Eaglercraft WASM)",
+      "slug": "eaglercraft-1-20-6",
+      "file": "games/eaglercraft-1-20-6.html",
+      "filename": "eaglercraft-1-20-6.html",
+      "category": "Minecraft",
+      "tags": [
+        "offline",
+        "browser",
+        "html5",
+        "singleplayer",
+        "eaglercraft"
+      ],
+      "description": "Minecraft 1.20.6 in the browser via Eaglercraft WASM (EaglercraftNOA).",
+      "size": 14079,
+      "originalSize": 55585813,
+      "hash": "605b7ec15bcc8629"
+    },
+    {
+      "id": "eaglercraft-1-17",
+      "name": "Minecraft 1.17 (Eaglercraft WASM)",
+      "slug": "eaglercraft-1-17",
+      "file": "games/eaglercraft-1-17.html",
+      "filename": "eaglercraft-1-17.html",
+      "category": "Minecraft",
+      "tags": [
+        "offline",
+        "browser",
+        "html5",
+        "singleplayer",
+        "eaglercraft"
+      ],
+      "description": "Minecraft 1.17 in the browser via Eaglercraft WASM (EaglercraftNOA).",
+      "size": 14063,
+      "originalSize": 50168187,
+      "hash": "84a741ea70c49603"
+    },
+    {
+      "id": "eaglercraft-1-16-5",
+      "name": "Minecraft 1.16.5 (Eaglercraft WASM)",
+      "slug": "eaglercraft-1-16-5",
+      "file": "games/eaglercraft-1-16-5.html",
+      "filename": "eaglercraft-1-16-5.html",
+      "category": "Minecraft",
+      "tags": [
+        "offline",
+        "browser",
+        "html5",
+        "singleplayer",
+        "eaglercraft"
+      ],
+      "description": "Minecraft 1.16.5 in the browser via Eaglercraft WASM (EaglercraftNOA).",
+      "size": 14070,
+      "originalSize": 53138540,
+      "hash": "fa49271ec3aaf7f0"
+    },
+    {
+      "id": "eaglercraft-1-14-4",
+      "name": "Minecraft 1.14.4 (Eaglercraft WASM)",
+      "slug": "eaglercraft-1-14-4",
+      "file": "games/eaglercraft-1-14-4.html",
+      "filename": "eaglercraft-1-14-4.html",
+      "category": "Minecraft",
+      "tags": [
+        "offline",
+        "browser",
+        "html5",
+        "singleplayer",
+        "eaglercraft"
+      ],
+      "description": "Minecraft 1.14.4 in the browser via Eaglercraft WASM (EaglercraftNOA).",
+      "size": 16574,
+      "originalSize": 36009903,
+      "hash": "aef8361645da960d"
+    },
+    {
+      "id": "eaglercraft-1-13-2",
+      "name": "Minecraft 1.13.2 (Eaglercraft WASM)",
+      "slug": "eaglercraft-1-13-2",
+      "file": "games/eaglercraft-1-13-2.html",
+      "filename": "eaglercraft-1-13-2.html",
+      "category": "Minecraft",
+      "tags": [
+        "offline",
+        "browser",
+        "html5",
+        "singleplayer",
+        "eaglercraft"
+      ],
+      "description": "Minecraft 1.13.2 in the browser via Eaglercraft WASM (EaglercraftNOA).",
+      "size": 53662,
+      "originalSize": 54245148,
+      "hash": "dc9ed21535e9c414"
     }
   ]
 }

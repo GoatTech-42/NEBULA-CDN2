@@ -31,7 +31,7 @@ blocklisted; the rename gives jsDelivr a fresh source path:
 
 ## What Is NEBULA CDN?
 
-NEBULA CDN is a collection of **2,810 self-contained HTML games** — each a single `.html` file that runs entirely in your browser. No downloads, no logins, no ads.
+NEBULA CDN is a collection of **2,818 browser games** — each a single `.html` file that runs entirely in your browser. No downloads, no logins, no ads.
 
 Every game has been:
 
@@ -62,7 +62,7 @@ directly if needed.
 
 | Metric | Value |
 |---|---|
-| Total Games | **2,810** |
+| Total Games | **2,818** |
 | Total Size | ~2.08 GB |
 | Categories | **16** |
 | File Format | Single-file HTML5 |
@@ -269,6 +269,13 @@ Games are served as-is. Each game's original license and copyright belong to its
 ---
 
 *NEBULA CDN — GoatTech Industries*
+
+## Latest additions (v1.2.0, 2026-09-18)
+
+8 Eaglercraft ports from the EaglercraftNOA organization: Eaglercraft 26.2,
+26.1.2 (Novix WASM), and Minecraft 1.13.2 / 1.14.4 / 1.16.5 / 1.17 / 1.20.6 /
+1.21.11 WASM builds. All split for CDN delivery with
+`scripts/split_large_games.py`.
 
 ## Large game splitting
 
