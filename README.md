@@ -10,20 +10,20 @@
 
 | Resource | URL |
 |---|---|
-| **Game Browser** | [`player.html`](https://cdn.jsdelivr.net/gh/GoatTech-42/NEBULA-CDN2@main/player.html) |
-| **Game Catalog (JSON API)** | [`games.json`](https://cdn.jsdelivr.net/gh/GoatTech-42/NEBULA-CDN2@main/games.json) |
-| **CDN Base URL** | `https://cdn.jsdelivr.net/gh/GoatTech-42/NEBULA-CDN2@main/` |
-| **Single Game Example** | `https://cdn.jsdelivr.net/gh/GoatTech-42/NEBULA-CDN2@main/games/doom.html` |
+| **Game Browser** | [`player.html`](https://cdn.jsdelivr.net/gh/GoatTech-42/NEBULACDN@main/player.html) |
+| **Game Catalog (JSON API)** | [`games.json`](https://cdn.jsdelivr.net/gh/GoatTech-42/NEBULACDN@main/games.json) |
+| **CDN Base URL** | `https://cdn.jsdelivr.net/gh/GoatTech-42/NEBULACDN@main/` |
+| **Single Game Example** | `https://cdn.jsdelivr.net/gh/GoatTech-42/NEBULACDN@main/games/doom.html` |
 
 ---
 
 ## Source rename (2026-09-18)
 
-This repository was renamed `NEBULA-CDN` -> `NEBULA-CDN2`. The old jsDelivr
+This repository was renamed `NEBULA-CDN` -> `NEBULACDN`. The old jsDelivr
 source URL (`cdn.jsdelivr.net/gh/GoatTech-42/NEBULA-CDN@main`) got
 blocklisted; the rename gives jsDelivr a fresh source path:
 
-- New CDN base: `https://cdn.jsdelivr.net/gh/GoatTech-42/NEBULA-CDN2@main/`
+- New CDN base: `https://cdn.jsdelivr.net/gh/GoatTech-42/NEBULACDN@main/`
 - GitHub redirects the old repo URL, but all jsDelivr references in this repo
   (README, `player.html`, `process_games.py`) now point at the new name.
 - If this path gets blocked again, rename the repo once more (single-character
@@ -114,7 +114,7 @@ Categories are sorted by game count in the browser. The top categories are:
 The catalog is a single JSON file served via jsDelivr:
 
 ```
-https://cdn.jsdelivr.net/gh/GoatTech-42/NEBULA-CDN2@main/games.json
+https://cdn.jsdelivr.net/gh/GoatTech-42/NEBULACDN@main/games.json
 ```
 
 ### Top-level structure
@@ -156,7 +156,7 @@ https://cdn.jsdelivr.net/gh/GoatTech-42/NEBULA-CDN2@main/games.json
 ### Fetching a game
 
 ```js
-const CDN = 'https://cdn.jsdelivr.net/gh/GoatTech-42/NEBULA-CDN2@main';
+const CDN = 'https://cdn.jsdelivr.net/gh/GoatTech-42/NEBULACDN@main';
 const catalog = await fetch(`${CDN}/games.json`).then(r => r.json());
 
 // Get URL for a game
@@ -231,11 +231,11 @@ NEBULA-CDN/
 
 ```html
 <script>
-fetch('https://cdn.jsdelivr.net/gh/GoatTech-42/NEBULA-CDN2@main/games.json')
+fetch('https://cdn.jsdelivr.net/gh/GoatTech-42/NEBULACDN@main/games.json')
   .then(r => r.json())
   .then(data => {
     const game = data.games[Math.floor(Math.random() * data.games.length)];
-    const base = 'https://cdn.jsdelivr.net/gh/GoatTech-42/NEBULA-CDN2@main';
+    const base = 'https://cdn.jsdelivr.net/gh/GoatTech-42/NEBULACDN@main';
     document.getElementById('game-frame').src = base + '/' + game.file;
     document.getElementById('game-title').textContent = game.name;
   });
@@ -251,7 +251,7 @@ fetch('https://cdn.jsdelivr.net/gh/GoatTech-42/NEBULA-CDN2@main/games.json')
 ### Filter by category
 
 ```js
-const CDN = 'https://cdn.jsdelivr.net/gh/GoatTech-42/NEBULA-CDN2@main';
+const CDN = 'https://cdn.jsdelivr.net/gh/GoatTech-42/NEBULACDN@main';
 const { games } = await fetch(`${CDN}/games.json`).then(r => r.json());
 
 const shooters = games.filter(g => g.category === 'Shooter');

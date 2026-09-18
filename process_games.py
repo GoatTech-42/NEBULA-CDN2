@@ -305,7 +305,7 @@ def main():
         "version": "1.0.0",
         "author": "GoatTech Industries",
         "repository": "https://github.com/GoatTech-42/NEBULA-CDN",
-        "cdn_base": "https://cdn.jsdelivr.net/gh/GoatTech-42/NEBULA-CDN2@main",
+        "cdn_base": "https://cdn.jsdelivr.net/gh/GoatTech-42/NEBULACDN@main",
         "license": "MIT",
         "generated": datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ"),
         "stats": {

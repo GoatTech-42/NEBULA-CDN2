@@ -1,11 +1,11 @@
 {
-  "$schema": "https://raw.githubusercontent.com/GoatTech-42/NEBULA-CDN2/main/schema/games.schema.json",
+  "$schema": "https://raw.githubusercontent.com/GoatTech-42/NEBULACDN/main/schema/games.schema.json",
   "name": "NEBULA CDN",
   "description": "A free, open-source CDN of browser-playable HTML games. Hosted on GitHub and served via jsDelivr.",
   "version": "1.1.0",
   "author": "GoatTech Industries",
-  "repository": "https://github.com/GoatTech-42/NEBULA-CDN2",
-  "cdn_base": "https://cdn.jsdelivr.net/gh/GoatTech-42/NEBULA-CDN2@main",
+  "repository": "https://github.com/GoatTech-42/NEBULACDN",
+  "cdn_base": "https://cdn.jsdelivr.net/gh/GoatTech-42/NEBULACDN@main",
   "license": "MIT",
   "generated": "2026-09-18T18:04:13Z",
   "stats": {
