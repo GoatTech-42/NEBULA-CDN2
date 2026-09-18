@@ -31,7 +31,7 @@ blocklisted; the rename gives jsDelivr a fresh source path:
 
 ## What Is NEBULA CDN?
 
-NEBULA CDN is a collection of **2,943 browser games** — each a single `.html` file that runs entirely in your browser. No downloads, no logins, no ads.
+NEBULA CDN is a collection of **3,076 browser games**. Most are single `.html` files that run entirely in your browser; titles tagged `cdn-streamed` stream their game files through jsDelivr from their upstream source repos. No downloads, no logins, no ads.
 
 Every game has been:
 
@@ -62,7 +62,7 @@ directly if needed.
 
 | Metric | Value |
 |---|---|
-| Total Games | **2,943** |
+| Total Games | **3,076** |
 | Total Size | ~2.08 GB |
 | Categories | **16** |
 | File Format | Single-file HTML5 |
@@ -269,6 +269,15 @@ Games are served as-is. Each game's original license and copyright belong to its
 ---
 
 *NEBULA CDN — GoatTech Industries*
+
+## Latest additions (v1.4.0, 2026-09-18)
+
+133 titles mined from the Horizon doc and the new Ultimate Game Stash master
+doc (the current UGS distribution is launcher HTML backed by jsDelivr-hosted
+asset repos). 4 ship as real single files (Block Blast 2, EaglerCraft Odd
+Future, Amazing Strange Rope Police, Granny Online); the rest are tagged
+`cdn-streamed` like the existing launcher-based catalog entries. Upstream
+analytics (Google tag) stripped on import.
 
 ## Latest additions (v1.3.0, 2026-09-18)
 
