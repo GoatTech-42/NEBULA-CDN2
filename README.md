@@ -270,6 +270,14 @@ Games are served as-is. Each game's original license and copyright belong to its
 
 *NEBULA CDN — GoatTech Industries*
 
+## Refresh pass (v1.4.1, 2026-09-18)
+
+Re-pointed ~85 launcher titles to their current UGS backends (genizy/* ->
+bubblfan/* forks and other moves), verified repo existence for every new
+backend, restored two files where the upstream had died (monkeymart) or the
+original was a true single-file game (crazy-crash-landing). Pre-refresh
+copies kept in git history.
+
 ## Latest additions (v1.4.0, 2026-09-18)
 
 133 titles mined from the Horizon doc and the new Ultimate Game Stash master

@@ -1,79 +1,108 @@
-<!-- NEBULA CDN | GoatTech Industries | Game: asteroids | File: asteroids.html | https://github.com/GoatTech-42/NEBULA-CDN -->
-<html><head><script src="//www.google.com/jsapi"></script><script>
-window.parent.maeExportApis_();
-</script><style>
-body {
-overflow: hidden;
-background: #000000;
-margin-top: 0;
-margin-left: 0;
-color: #000000;
-}
-#startButton {
-display: block;
-width: 160px;
-height: 40px;
-background-color: #4caf50;
-color: white;
-text-align: center;
-text-decoration: none;
-font-size: 16px;
-margin: 20px auto;
-padding: 10px 20px;
-border: none;
-border-radius: 8px;
-cursor: pointer;
-font-family: "Press Start 2P", cursive;
-box-shadow: 0px 0px 10px 2px #000000;
-}
-</style><link
-href="https://fonts.googleapis.com/css2?family=Press+Start+2P&amp;display=swap"
-rel="stylesheet"
-/><style type="text/css">
-#button {
-display: none;
-}
-.imgb_vis {
-animation: imgb-animation 7s linear;
-}
-@keyframes imgb-animation {
-10% {
-transform: translateX(0);
-}
-20% {
-transform: translateX(100px);
-}
-90% {
-transform: translateX(100px);
-}
-100% {
-transform: translateX(0);
-}
-}
-</style></head><body><div style="width: 100vw; height: 100vh; max-width: 100%"><div id="game" style="display: none"></div><button id="startButton">PLAY</button></div><script>
-document.getElementById("game").style.display = "none";
-function startGame() {
-document.getElementById("game").style.display = "block";
-document.getElementById("startButton").style.display = "none";
-EJS_player = "#game";
-EJS_core = "atari2600";
-EJS_color = "#000000";
-EJS_startOnLoaded = true;
-EJS_pathtodata = "https://cdn.jsdelivr.net/gh/genizy/emu@master/";
-EJS_gameUrl =
-"https://cdn.jsdelivr.net/gh/bubbls/UGS-file-encryption@00b075dab1123c34f488d1e9c87c945716887ede/Asteroids%20(Japan%2C%20USA)%20(En).zip";
-loadGame();
-}
-document
-.getElementById("startButton")
-.addEventListener("click", startGame);
-function loadGame() {
-var script = document.createElement("script");
-script.src = "https://cdn.jsdelivr.net/gh/genizy/emu@master/loader.js";
-document.body.appendChild(script);
-var script = document.createElement("script");
-script.src =
-"https://cdn.jsdelivr.net/gh/a456pur/seraph@ae2fcc6d6a9cd051654fcc0519080db1f79cf2a7/storage/js/cloak.js";
-document.body.appendChild(script);
-}
-</script></body></html>
+<!-- NEBULA CDN | GoatTech Industries | Game: asteroids | File: asteroids.html | https://github.com/GoatTech-42/NEBULACDN | refreshed from UGS clasteroidsALT.html -->
+<!-- Ultimate Game Stash file--> 
+<!-- For the regularly updating doc go to https://docs.google.com/document/d/1_FmH3BlSBQI7FGgAQL59-ZPe8eCxs35wel6JUyVaG8Q/ -->
+<!--This is a arcade game. Uses jsdelivr--!>
+
+<!doctype html>
+<base href="https://cdn.jsdelivr.net/gh/Stinkalistic/SWAGgames@main/asteroids/">
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="Asteroids game ported from C to WebAssembly">
+        <meta name="author" content="Robert Aboukhalil">
+        <title>Asteroids Game in WebAssembly</title>
+
+        <!-- Bootstrap core CSS -->
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+
+        <style>
+            body { padding-top: 5rem; }
+            .starter-template { text-align: center; }
+            canvas { display: block; margin: 0 auto; }
+        </style>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+            <a class="navbar-brand" href="#">Asteroids in WebAssembly</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+                <ul class="navbar-nav mr-auto"></ul>
+                <div>
+                    <a style="color:#ccc" class="nav-link" href="https://github.com/robertaboukhalil/wasm-asteroids" target="_blank">Code on GitHub</a>
+                </div>
+            </div>
+        </nav>
+
+        <div class="starter-template">
+            <p class="lead">
+                An <a href="https://github.com/flightcrank/asteroids">Asteroids game</a> ported from C to WebAssembly.<br />
+                <small>(Arrows to move; Spacebar to shoot)</small>
+            </p>
+            <p id="loading" class="lead">
+                <img src="loading.gif" alt="Loading..." height="100">
+            </p>
+        </div>
+
+        <main role="main" class="container">
+            <div class="row" style="text-align:center">
+              <canvas class="emscripten" id="canvas" oncontextmenu="event.preventDefault()" tabindex=-1></canvas>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <hr />
+                    <p>Want to learn how to port games like this one to the web? Check out my book <a href="http://levelupwasm.com" target="_blank">Level Up with WebAssembly</a>.</p>
+                </div>
+            </div>
+        </main>
+
+        <!-- Main logic -->
+        <script type='text/javascript'>
+          var spinnerElement = document.getElementById('loading');
+          var Module = {
+            preRun: [],
+            postRun: [],
+            print: function(stdout){ console.log(stdout); },
+            printErr: function(stderr) { console.error(stderr); },
+            canvas: (function() {
+              var canvas = document.getElementById('canvas');
+              canvas.addEventListener("webglcontextlost", function(e) { alert('WebGL context lost. You will need to reload the page.'); e.preventDefault(); }, false);
+              return canvas;
+            })(),
+            setStatus: function(text) {
+              if (!Module.setStatus.last) Module.setStatus.last = { time: Date.now(), text: '' };
+              if (text === Module.setStatus.last.text) return;
+              var m = text.match(/([^(]+)\((\d+(\.\d+)?)\/(\d+)\)/);
+              var now = Date.now();
+              if (m && now - Module.setStatus.last.time < 30) return;
+              Module.setStatus.last.time = now;
+              Module.setStatus.last.text = text;
+              if (m) {
+                text = m[1];
+                spinnerElement.hidden = false;
+              } else {
+                if (!text) spinnerElement.style.display = 'none';
+              }
+            },
+            totalDependencies: 0,
+            monitorRunDependencies: function(left) {
+              this.totalDependencies = Math.max(this.totalDependencies, left);
+              Module.setStatus(left ? 'Preparing... (' + (this.totalDependencies-left) + '/' + this.totalDependencies + ')' : 'All downloads complete.');
+            }
+          };
+          Module.setStatus('Downloading...');
+          window.onerror = function(event) {
+            Module.setStatus('Exception thrown, see JavaScript console');
+            spinnerElement.style.display = 'none';
+            Module.setStatus = function(text) {
+              if (text) Module.printErr('[post-exception status] ' + text);
+            };
+          };
+        </script>
+        <script async type="text/javascript" src="asteroids.js"></script>
+    </body>
+</html>
