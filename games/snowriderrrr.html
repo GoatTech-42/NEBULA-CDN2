@@ -1,2 +1,35 @@
-<!-- NEBULA CDN | GoatTech Industries | Game: snowriderrrr | File: snowriderrrr.html | https://github.com/GoatTech-42/NEBULA-CDN -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/drippy-cat/snowrider3D@c82fe583cbffafa502b0aa3ed2da0053972e0c80/TemplateData/style.css"><script src="https://cdn.jsdelivr.net/gh/drippy-cat/snowrider3D@c82fe583cbffafa502b0aa3ed2da0053972e0c80/TemplateData/UnityProgress.js"></script><script src="https://cdn.jsdelivr.net/gh/drippy-cat/snowrider3D@c82fe583cbffafa502b0aa3ed2da0053972e0c80/Build/UnityLoader.js"></script><script> var gameInstance = UnityLoader.instantiate("gameContainer", "https://cdn.jsdelivr.net/gh/drippy-cat/snowrider3D@c82fe583cbffafa502b0aa3ed2da0053972e0c80/Build/SnowRider3D-gd-1.json", {onProgress: UnityProgress,Module:{onRuntimeInitialized: function() {UnityProgress(gameInstance, "complete")}}}); </script><div class="webgl-content"><div id="gameContainer" style="width: 100%; height: 100%; margin: auto"></div></div>
+<!-- NEBULACDN | GoatTech Industries | Game: snowriderrrr | File: snowriderrrr.html | https://github.com/GoatTech-42/NEBULACDN | dead-backend replacement: same-game content from catalog entry "snowrid" -->
+<!-- NEBULA CDN | GoatTech Industries | Game: snowrid | File: snowrid.html | https://github.com/GoatTech-42/NEBULA-CDN -->
+<!DOCTYPE html><html><head><base href="https://cdn.jsdelivr.net/gh/genizy/polytrack@main/"><script>
+window.jkdfgnjkndfg = document.querySelector('base').href;
+fetch("simulation_worker.bundle.js").then(res => res.text()).then(text => {
+const blob = new Blob([text.replaceAll("replacethisplease", window.jkdfgnjkndfg)], { type: 'application/javascript' });
+window.simulationworker = URL.createObjectURL(blob);
+});
+const ogworker = window.Worker;
+window.Worker = function (scripturl, options) {
+if (typeof scripturl === 'string' && scripturl.toLowerCase() === "simulation_worker.bundle.js") {
+scripturl = window.simulationworker;
+}
+return new ogworker(scripturl, options);
+};
+window.Worker.prototype = ogworker.prototype;
+const ogfetch = window.fetch;
+window.fetch = async function (input, init) {
+if (typeof input === "string") {
+input = input.replace("vps.kodub.com:43273", "vpskodub.tmena1565.workers.dev");
+} else if (input instanceof Request) {
+const newUrl = input.url.replace("vps.kodub.com:43273", "vpskodub.tmena1565.workers.dev");
+input = new Request(newUrl, input);
+}
+return ogfetch(input, init);
+};
+const ogxml = XMLHttpRequest.prototype.open;
+XMLHttpRequest.prototype.open = function (method, url, ...rest) {
+if (typeof url === "string") {
+url = url.replace("vps.kodub.com:43273", "vpskodub.tmena1565.workers.dev");
+}
+return ogxml.call(this, method, url, ...rest);
+};
+</script><link rel="manifest" href="manifest.json" /><meta name="viewport"
+content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no"></head><body><canvas id="screen"></canvas><div id="ui"></div><div id="transition-layer"></div><script type="module" src="main.bundle.js" defer></script></body></html>

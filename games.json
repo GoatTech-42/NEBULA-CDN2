@@ -4766,9 +4766,9 @@
         "cdn-streamed"
       ],
       "description": "Play Blackjack \u2014 a other game playable directly in your browser. No downloads required.",
-      "size": 7243,
+      "size": 3723,
       "originalSize": 3029,
-      "hash": "59691885b738e40b"
+      "hash": "11f8a1e3c81ef118"
     },
     {
       "id": "blackjackbattle",
@@ -4804,9 +4804,9 @@
         "cdn-streamed"
       ],
       "description": "Play Blackjackhhhh in your browser (streams game files via jsDelivr CDN).",
-      "size": 4562,
+      "size": 3731,
       "originalSize": 4562,
-      "hash": "ac8329aa8228e021"
+      "hash": "1a3efd4b7d38e29b"
     },
     {
       "id": "blackknight",
@@ -19214,9 +19214,9 @@
         "singleplayer"
       ],
       "description": "Play Granny 2 \u2014 a other game playable directly in your browser. No downloads required.",
-      "size": 5024,
+      "size": 5020,
       "originalSize": 105330,
-      "hash": "07e049816b32cbe4"
+      "hash": "3be34be5a63c1583"
     },
     {
       "id": "granny22",
@@ -31227,9 +31227,9 @@
         "singleplayer"
       ],
       "description": "Play Paperio \u2014 a other game playable directly in your browser. No downloads required.",
-      "size": 7235,
+      "size": 785378,
       "originalSize": 8171,
-      "hash": "363a19dcac68c18f"
+      "hash": "ca095aaf867926d7"
     },
     {
       "id": "paperio3d",
@@ -35525,9 +35525,9 @@
         "cdn-streamed"
       ],
       "description": "Play Prismarine in your browser (streams game files via jsDelivr CDN).",
-      "size": 5457,
+      "size": 14161,
       "originalSize": 7337,
-      "hash": "8f820cea636d681e"
+      "hash": "02cd81a7bc57d2a2"
     },
     {
       "id": "prismclient",
@@ -41117,9 +41117,9 @@
         "singleplayer"
       ],
       "description": "Play Snowriderrrr \u2014 a racing game playable directly in your browser. No downloads required.",
-      "size": 985,
+      "size": 2046,
       "originalSize": 1024,
-      "hash": "44412eeb643149ae"
+      "hash": "c1138ba805442bf6"
     },
     {
       "id": "snowroad",
@@ -43392,9 +43392,9 @@
         "singleplayer"
       ],
       "description": "Play Stealbrainrot \u2014 a other game playable directly in your browser. No downloads required.",
-      "size": 9602,
+      "size": 4332,
       "originalSize": 12179,
-      "hash": "21ec6d0bdb97f04c"
+      "hash": "9ae89924f93f5b08"
     },
     {
       "id": "stealbrainrotonline",
@@ -44759,9 +44759,9 @@
         "singleplayer"
       ],
       "description": "Play Suika \u2014 a other game playable directly in your browser. No downloads required.",
-      "size": 18047,
+      "size": 55207,
       "originalSize": 19858,
-      "hash": "14bd0d4a19681791"
+      "hash": "7e6a94a49eef124a"
     },
     {
       "id": "suikapico",
@@ -55324,9 +55324,9 @@
         "cdn-streamed"
       ],
       "description": "Play Another Steal a Brainrot in your browser (streams game files via jsDelivr CDN).",
-      "size": 12179,
+      "size": 4354,
       "originalSize": 12518,
-      "hash": "b4198fd04809a413"
+      "hash": "01c32d98b385f79a"
     },
     {
       "id": "baldi-s-basics-remastered",
